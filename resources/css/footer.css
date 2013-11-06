@@ -1,0 +1,26 @@
+.footer > ul {
+    margin-left: 2%;
+    margin-top: 15px;
+}
+
+.footer > ul > li {
+    display: inline-block;
+    vertical-align: top;
+    color: #0052aa;
+    list-style-type: none;
+    font-size: 11px;
+    font-weight: bold;
+    padding: 2px 21px;
+}
+
+.footer > ul > li ul {
+    margin-top: 10px;
+}
+
+.footer > ul > li li {
+    color: #555555;
+    list-style-type: none;
+    font-size: 10px;
+    font-weight: 200;
+}
+

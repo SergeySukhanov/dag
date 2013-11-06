@@ -1,0 +1,232 @@
+.header-top {
+    padding: 10px 15px;
+    background-color: #eaeaea;
+    font-family: Tahoma, sans-serif;
+    font-size: 11px;
+    color: #444;
+}
+
+.header-top .top > div,
+.header-top .bottom > div {
+    display: inline-block;
+    position: relative;
+    vertical-align: top;
+}
+
+.top > div > p {
+    border: 1px solid #fcfcfc;
+    padding: 2px;
+    padding-left: 13px;
+    color: #a7a9ac;
+}
+
+
+.info {
+    width: 23%;
+    margin-right: 20px;
+}
+
+.weather {
+    width: 23%;
+    margin-right: 20px;
+}
+
+.members {
+    width: 23%;
+    margin-right: 20px;
+}
+
+.account {
+    width: 23%;
+    text-align: right;
+}
+
+.account li {
+    display: inline-block;
+}
+
+.account li:first-child {
+    margin-right: 25px;
+}
+
+.account a {
+    text-decoration: none;
+    color: #444;
+}
+
+/*----bottom---*/
+.bottom {
+    margin-top: 15px;
+}
+
+.nav {
+    width: 23%;
+}
+
+.nav select {
+    width: 200px;
+    height: 23px;
+    border: 1px solid #cccccc;
+}
+
+.search {
+    width: 51%;
+}
+
+.search > * {
+    display: inline-block;
+}
+.search > * > * {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.search input[type="text"] {
+    width: 61%;
+    height: 19px;
+    border: 1px solid #aeafb1;
+    padding-left: 7px;
+    margin-right: 5px;
+}
+
+.search input[type="button"] {
+    padding: 2px 12px;
+    border: 1px solid #aeafb1;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.version {
+    width: 17%;
+}
+
+.local {
+    width: 8%;
+}
+
+.version p {
+    text-transform: uppercase;
+    margin-right:20px;
+    margin-top: 5px;
+}
+
+
+.local li {
+    display: inline-block;
+    margin: 0 5px;
+    list-style-type: none;
+    margin-top: 5px;
+}
+
+
+/*-------*/
+
+.header-center{
+    background-color: #043f5d;
+}
+.header-center > div {
+    display: inline-block;
+}
+
+.title-page {
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 28px;
+}
+
+.title-page h2, .title-page h1 {
+    color: #ffffff;
+    font-family: Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.title-page h2 {
+    font-size: 20px;
+}
+
+.title-page h1 {
+    font-size: 36px;
+}
+
+.brand {
+    float: right;
+}
+.brand img {
+    height: 125px;
+    float: right;
+}
+
+/*------*/
+
+.header-bottom {
+    width: 100%;
+}
+
+.menu {
+    width: 100%;
+    display: block;
+    margin-left: 5%;
+}
+
+.menu li {
+    display: inline-block;
+    list-style-type: none;
+    margin-right: 15px;
+    position: relative;
+}
+
+.menu li a {
+    color: #444444;
+    padding: 11px 13px;
+    cursor: pointer;
+    font-family: Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+    display: inline-block;
+}
+.menu .active a {
+    color: #cb2a19;
+}
+
+.menu li:first-child a {
+    font-size: 0px;
+    width: 22px;
+    background-image: url(../images/home_icon_act_noact_06.png);
+    background-repeat: no-repeat;
+    position: relative;
+    top: -8px;
+    height: 3px;
+    left: 4px;
+}
+
+.menu li.active:first-child a {
+    background-image: url(../images/home_icon_act_06.png);
+}
+
+
+.underline-menu {
+    height: 5px;
+    background-color: #cb2a19;
+}
+
+.corner-menu {
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+    border-bottom: 10px solid #cb2a19;
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+}
+
+
+
+
+
+
+
+
+
+
+

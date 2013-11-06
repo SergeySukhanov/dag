@@ -1,0 +1,121 @@
+.events-head{
+    border-bottom:1px solid #2d5f78;
+}
+
+.events-head h3 {
+    text-transform: uppercase;
+    font-family: Tahoma, sans-serif;
+    font-weight: 200;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-bottom: 8px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.events-head a {
+    float: right;
+    vertical-align: top;
+    color: #cccccc;
+    text-decoration: none;
+    margin-top: 9px;
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.left-side {
+    width: 66%;
+    display: inline-block;
+}
+
+.right-side {
+    width: 30%;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 28px;
+}
+
+.inner-event > div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.event-details {
+    padding-top: 20px;
+    padding-left: 20px;
+    width: 65%;
+}
+.list-events {
+    width: 30%;
+    margin-top: 20px;
+}
+
+.event-details img {
+    width: 31%;
+    float: left;
+    margin-right: 14px;
+}
+
+.event-details h5 {
+    font-family: Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: 200;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.event-details p {
+    font-family: Tahoma,sans-serif;
+    font-size: 13px;
+}
+
+.list-events li {
+    font-family: Tahoma, sans-serif;
+    font-size: 11px;
+    list-style-type: none;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #555555;
+    padding-bottom: 10px;
+}
+
+.gallery .row > div {
+    display: inline-block;
+    position: relative;
+    width: 29%;
+    margin: 10px;
+}
+
+.gallery .row img {
+    width: 100%;
+}
+
+.my-dagestan-head{
+    margin-top: 10px;
+    border-top:2px solid #2d5f78;
+    border-bottom:1px solid #2d5f78;
+}
+
+.my-dagestan-head h3 {
+    text-transform: uppercase;
+    font-family: Tahoma, sans-serif;
+    font-weight: 200;
+    margin-top: 8px;
+    margin-left: 15px;
+    margin-bottom: 8px;
+    vertical-align: top;
+    display: inline-block;
+}
+.my-dagestan-head a{
+    float: right;
+    vertical-align: top;
+    color: #cccccc;
+    text-decoration: none;
+    margin-top: 9px;
+    font-family: Tahoma, sans-serif;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+
+
