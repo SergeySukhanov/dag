@@ -117,5 +117,24 @@
     margin-right: 10px;
 }
 
+.list-link {
+    margin-top: 32px;
+}
+
+.list-link ul {
+    list-style-type: none;
+}
+
+.list-link a {
+    display: block;
+}
+
+.list-link img {
+    width: 100%;
+}
+
+
+
+
 
 
