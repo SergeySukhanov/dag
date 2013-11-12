@@ -1,15 +1,9 @@
 .events-head{
     border-bottom:1px solid #2d5f78;
+    padding-left: 20px;
 }
 
 .events-head h3 {
-    text-transform: uppercase;
-    font-family: Tahoma, sans-serif;
-    font-weight: 200;
-    margin-top: 8px;
-    margin-left: 15px;
-    margin-bottom: 8px;
-    vertical-align: top;
     display: inline-block;
 }
 
@@ -17,10 +11,7 @@
     float: right;
     vertical-align: top;
     color: #cccccc;
-    text-decoration: none;
     margin-top: 9px;
-    font-family: Tahoma, sans-serif;
-    font-size: 12px;
     margin-right: 10px;
 }
 
@@ -58,7 +49,6 @@
 }
 
 .event-details h5 {
-    font-family: Tahoma, sans-serif;
     font-size: 17px;
     font-weight: 200;
     text-transform: uppercase;
@@ -71,9 +61,7 @@
 }
 
 .list-events li {
-    font-family: Tahoma, sans-serif;
     font-size: 11px;
-    list-style-type: none;
     margin-bottom: 10px;
     border-bottom: 1px solid #555555;
     padding-bottom: 10px;
@@ -97,12 +85,6 @@
 }
 
 .my-dagestan-head h3 {
-    text-transform: uppercase;
-    font-family: Tahoma, sans-serif;
-    font-weight: 200;
-    margin-top: 8px;
-    margin-left: 15px;
-    margin-bottom: 8px;
     vertical-align: top;
     display: inline-block;
 }
@@ -110,10 +92,7 @@
     float: right;
     vertical-align: top;
     color: #cccccc;
-    text-decoration: none;
     margin-top: 9px;
-    font-family: Tahoma, sans-serif;
-    font-size: 12px;
     margin-right: 10px;
 }
 
@@ -121,9 +100,6 @@
     margin-top: 32px;
 }
 
-.list-link ul {
-    list-style-type: none;
-}
 
 .list-link a {
     display: block;

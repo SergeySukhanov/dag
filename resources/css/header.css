@@ -180,11 +180,13 @@
     color: #444444;
     padding: 11px 13px;
     cursor: pointer;
-    font-family: Tahoma, sans-serif;
     font-size: 14px;
     font-weight: 600;
     text-decoration: none;
     display: inline-block;
+}
+.menu .active{
+    background-color:#ffffff !important;
 }
 .menu .active a {
     color: #cb2a19;

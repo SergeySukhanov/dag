@@ -23,6 +23,9 @@
 .ui-datepicker .ui-datepicker-prev {
     left: 2px;
 }
+.ui-datepicker .ui-datepicker-next {
+    right: 2px;
+}
 
 .ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
     position: absolute;
