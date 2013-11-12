@@ -5,3 +5,13 @@
 @import "asideNews.css" screen;
 @import "newsItem.css" screen;
 
+.prezident-section img {
+    width: 25%;
+    float: left;
+    margin-right: 14px;
+}
+
+.prezident-section p {
+    font-size: 15px;
+    color: #333333;
+}

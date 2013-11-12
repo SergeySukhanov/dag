@@ -166,13 +166,12 @@
 .menu {
     width: 100%;
     display: block;
-    margin-left: 5%;
+    margin-left: 2%;
 }
 
 .menu li {
     display: inline-block;
     list-style-type: none;
-    margin-right: 15px;
     position: relative;
 }
 
