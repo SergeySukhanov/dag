@@ -4,7 +4,13 @@
 @import "news.css" screen;
 @import "asideNews.css" screen;
 @import "newsItem.css" screen;
+@import "documents.css" screen;
 
+
+
+.prezident-section {
+    margin-bottom: 30px;
+}
 .prezident-section img {
     width: 25%;
     float: left;

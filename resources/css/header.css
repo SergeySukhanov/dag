@@ -93,7 +93,7 @@
     padding: 2px 12px;
     border: 1px solid #aeafb1;
     border-radius: 4px;
-    margin-right: 20px;
+    margin-right: 6px;
 }
 
 .version {
@@ -106,14 +106,14 @@
 
 .version p {
     text-transform: uppercase;
-    margin-right:20px;
+    margin-right:0px;
     margin-top: 5px;
 }
 
 
 .local li {
     display: inline-block;
-    margin: 0 5px;
+    margin: 0 3px;
     list-style-type: none;
     margin-top: 5px;
 }
@@ -177,7 +177,7 @@
 
 .menu li a {
     color: #444444;
-    padding: 11px 13px;
+    padding: 11px 10px;
     cursor: pointer;
     font-size: 14px;
     font-weight: 600;
