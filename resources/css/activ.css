@@ -1,0 +1,66 @@
+.activ-section {
+    min-height: 1%;
+    display: block;
+	width: 110%;
+	padding-bottom: 50px;
+}
+
+.activ-section:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.activ-item {
+	width: 198px;
+	float: left;
+	margin: 0 25px 25px 0;
+}
+.activ-item h4 {
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	display:table;
+}
+.activ-item h4 span {
+	color: #FFF;
+	background: #595959;
+	display: table-cell;
+	padding: 0px 7px;
+	height: 37px;
+	overflow: hidden;
+	vertical-align: middle;	
+}
+.activ-item:hover h4 span {
+	background: #d81900;
+}
+.activ-item img {
+	width: 100%;
+}
+.activ-item .description {
+	height: 30px;
+	overflow: hidden;
+	font-size: 12px;
+	line-height: 16px;
+	color: #000000;
+	padding: 2px 0 0;
+	margin: 0 0 10px;
+}
+.activ-item div > span {
+	color: #999999;
+	font-size: 12px;
+}
+.activ-item div > a {
+	float: right;
+	color: #043f5d;
+	text-decoration: underline;
+}
+
+.activ-filters {
+	padding-top:2px;
+	margin-bottom: 35px;
+}

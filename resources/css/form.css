@@ -1,0 +1,56 @@
+.col {
+	overflow: hidden;
+	margin-bottom: 18px;
+}
+.col:last-child {
+	border-bottom: 1px solid #033f5d;
+	padding-bottom: 25px;
+}
+.row {
+	float: left;
+	margin-right: 83px;
+}
+.row:last-child {
+	margin-right: 0;
+}
+.col input[type="text"] {
+	height: 17px;
+	border: 1px solid #033f5d;
+	margin-right:10px;
+	padding-left: 5px;
+}
+.date-input {
+	width: 107px;
+}
+.col label, .col span { 
+	vertical-align: middle; 
+	font-size: 14px;
+}
+.col input[type="checkbox"] {
+	vertical-align: middle; 
+	margin-left: 10px;
+} 
+.col input[type="checkbox"]:first-child {
+	margin-left:0;
+}
+.col-wide .row { 
+	float: none; 
+}
+
+.wide-input { 
+	width: 642px; 
+	margin-right: 0;
+}
+.col input[type="button"], .col input[type="submit"] {
+	text-transform: uppercase;
+	color: #FFF;
+	height: 37px;
+	line-height: 35px;
+	padding-left:15px;
+	padding-right: 15px;
+	background-color: #d81900;
+	cursor: pointer;
+
+}
+
+

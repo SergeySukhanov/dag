@@ -5,7 +5,8 @@
 @import "asideNews.css" screen;
 @import "newsItem.css" screen;
 @import "documents.css" screen;
-
+@import "activ.css" screen;
+@import "form.css" screen;
 
 
 .prezident-section {
