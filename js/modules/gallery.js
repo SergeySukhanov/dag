@@ -22,8 +22,8 @@ function SimpleGallery(options){
             $('.view-region').append('<a class="close-btn" href="#">Закрыть</a>');
         },
         _destroyModalWindow = function(){
+                $('.modal-overlay, .view-region').fadeOut(300);
 				$('.modal-overlay, .view-region').remove();
-				$('body').css('overflow', 'scroll');
         },
 
         _showModalWindow = function(current){
@@ -32,23 +32,24 @@ function SimpleGallery(options){
                 var url= current.children().attr('src');
                 var preview = $('.view-region img');
                 preview.attr('src',url);
-                $('.modal-overlay, .view-region').fadeIn(200);
-				$('body').css('overflow', 'hidden');
+                $('.modal-overlay, .view-region').fadeIn(400);
 			    _hideModalWindow();
             });
         },
        _hideModalWindow = function(){
             $('.close-btn').click(function(){
-                $('.modal-overlay, .view-region').fadeOut(200);
                 _destroyModalWindow();
-
             });
-//           if ($('.modal-overlay'))>0
-//           $(document).click(function() {
-//               $('.modal-overlay, .view-region').fadeOut(200);
-//               _destroyModalWindow();
-//           });
-        },
+            $('.modal-overlay').click(function() {
+                 _destroyModalWindow();
+            });
+           $(document).keypress(function(e) {
+               if (e.keyCode == 27) {
+                  _destroyModalWindow();
+               }
+           });
+
+       },
        _renderModal= function(){
            var target =  settings.wrap.children('.current-photo');
            target.append("<a class='show-modal' href='#'>Увеличить</a>");
@@ -61,10 +62,10 @@ function SimpleGallery(options){
             var child = wrap.children().length;
             if(child == 0){
                 _paintHTML();
-            }else{
-
             }
+            if (settings.wrap.length){
             _handlers();
+            }
         },
 
         _paintHTML = function(){
@@ -90,13 +91,12 @@ function SimpleGallery(options){
         };
 
         view.init = function(){
-            _previewBuilding();
-            $(window).resize(function(){
-                _previewBuilding();
-            });
-            _render();
-		    _renderModal();
+             _previewBuilding();
+             $(window).resize(function(){
+                    _previewBuilding();
+             });
+             _render();
+             _renderModal();
         };
-
     view.init();
 }
