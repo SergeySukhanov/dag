@@ -10,6 +10,8 @@
 @import "district-picked.css" screen;
 @import "districts.css" screen;
 @import "district-list.css" screen;
+@import "questions.css" screen;
+@import "gallery.css" screen;
 
 
 .prezident-section {

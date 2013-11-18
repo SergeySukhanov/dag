@@ -10,5 +10,6 @@ $(document).ready(function(){
        wrap:null
    };
     new TimerTabsCtrl(opt);
+    new SimpleGallery(opt);
    $('.datepicker').datepicker();
 });
