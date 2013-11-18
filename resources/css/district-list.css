@@ -1,0 +1,43 @@
+.district-list {
+	min-height: 1%;
+    display: block;
+}
+.district-list:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.district-list-col {
+	width: 31%;
+	margin-right: 14px;
+	float: left;
+}
+.alpha-item {
+	margin-bottom:20px;
+}
+.alpha-item h3 {
+	margin-top: 15px;
+	margin-bottom: 4px;
+}
+.alpha-item ul {
+	list-style-type: none;
+	list-style-position: outside;
+}
+.alpha-item li {
+	line-height: 18px;
+}
+.alpha-item a {
+	color: #4057c5;
+	font-size: 12px;
+}
+.alpha-item a:hover {
+	text-decoration: underline;
+	font-weight: bold;
+	background: url(../images/triangle.png) no-repeat 0 5px;
+	padding-left: 10px;
+	margin-left: -10px;
+}
+.main-district { font-weight: bold; }
+
