@@ -9,6 +9,9 @@
     float: right;
     margin-top: 10px;
 }
+.download {
+	margin-bottom: 25px;
+}
 .body-download p {
 	font-size: 14px;
 	line-height: 18px;
@@ -17,5 +20,21 @@
 	display: block;
 	height: 34px;
 	float: left;
-	margin-left: 10px;
+	width: 34px;
+	margin-right: 5px;
+	background: url(../images/doc_ic.gif) no-repeat 0px 0px;
+}
+.download-file {
+	padding-top:10px;
+	margin-bottom: 5px;
+}
+.body-download .file-size {
+	color: #a7a9ac;
+	font-size: 12px;
+	line-height: 16px;
+	display: block;
+}
+.body-download a {
+	color: #043f5d;
+	text-decoration: underline;
 }

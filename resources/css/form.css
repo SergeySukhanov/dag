@@ -8,7 +8,7 @@
 }
 .row {
 	float: left;
-	margin-right: 83px;
+	margin-right: 68px;
 }
 .row:last-child {
 	margin-right: 0;
@@ -56,5 +56,7 @@
 	width: 212px;
 	border: 1px solid #033f5d;
 }
-
-
+.numdoc-input { 
+	width: 82px;
+}
+.row input[type="text"]:last-child {margin-right: 0;}
