@@ -6,11 +6,11 @@
 	border-bottom: 1px solid #033f5d;
 	padding-bottom: 25px;
 }
-.row {
+.col .row {
 	float: left;
 	margin-right: 68px;
 }
-.row:last-child {
+.col .row:last-child {
 	margin-right: 0;
 }
 .col input[type="text"] {
@@ -59,4 +59,4 @@
 .numdoc-input { 
 	width: 82px;
 }
-.row input[type="text"]:last-child {margin-right: 0;}
+.col .row input[type="text"]:last-child {margin-right: 0;}
