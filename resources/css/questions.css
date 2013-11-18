@@ -1,0 +1,53 @@
+.question-filter {
+	display: inline-block;
+	width: 100%;
+	clear: both;
+	margin-bottom: 10px;
+	}
+
+.question-filter span {	
+	color: rgb(102, 102, 102);
+	}
+
+.question-filter select {
+	width: 212px;
+	border: 1px solid rgb(3, 63, 93);
+	}
+
+.question-item {
+	margin-bottom: 25px;
+	}
+	
+.question-item p, .question-answer-item p {	
+	color: rgb(102, 102, 102);
+	margin-bottom: 5px;
+	}
+
+.question-item span, .question-answer-item span {	
+	color: rgb(153, 153, 153);
+	font-size: 14px;
+	}
+	
+.theme-dest {
+	float: left;
+	}
+	
+.span-date {
+	float: right;
+	}
+	
+.additions {
+	clear: both;
+	display: inline-block;
+	width: 100%;
+	}
+	
+.full-page a {
+	text-decoration: underline;
+	color: rgb(4, 63, 93);
+	}
+	
+.line {
+	margin: 20px 0;
+	border-bottom: 1px solid rgb(4, 63, 93);
+	}
