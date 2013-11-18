@@ -52,5 +52,9 @@
 	cursor: pointer;
 
 }
+.col select {
+	width: 212px;
+	border: 1px solid #033f5d;
+}
 
 

@@ -7,6 +7,8 @@
 @import "documents.css" screen;
 @import "activ.css" screen;
 @import "form.css" screen;
+@import "district-picked.css" screen;
+@import "districts.css" screen;
 
 
 .prezident-section {

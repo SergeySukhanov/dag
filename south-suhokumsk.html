@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test page</title>
+    <meta http-equiv="content-type" charset="utf-8">
+
+    <link rel="stylesheet" href="resources/css/main-styles.css"/>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="js/modules/timerTabsCtrl.js"></script>
+    <script src="js/starter.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <div class="header">
+        <div class="header-top">
+            <div class="top">
+                <div class="info">
+                    <p>Общая иноформация</p>
+                </div>
+                <div class="weather">
+                    <p>Погода</p>
+                </div>
+                <div class="members">
+                    <p>Посещение сайта</p>
+                </div>
+                <div class="account">
+                    <ul>
+                        <li><a href="#">Личный кабинет</a></li>
+                        <li><a href="#">Вход</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="nav">
+                    <select>
+                        <option>Навигация по государственным сайтам</option>
+                        <option>Навигация по государственным сайтам</option>
+                        <option>Навигация по государственным сайтам</option>
+                        <option>Навигация по государственным сайтам</option>
+                        <option>Навигация по государственным сайтам</option>
+                    </select>
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="Поиск"/>
+                    <input type="button" value="Найти"/>
+                    <div>
+                        <input id="here" type="checkbox" value="here"/>
+                        <label for="here">На этом сайте</label>
+                    </div>
+                </div>
+                <div class="version">
+                    <p>версия для слабовидящих</p>
+                </div>
+                <div class="local">
+                    <ul>
+                        <li><img src="resources/images/mob_phone.png"/></li>
+                        <li><img src="resources/images/lang_en.gif"/></li>
+                        <li><img src="resources/images/lang_ru.gif"/></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="header-center">
+            <div class="title-page">
+                <h2>официальный портал органов власти</h2>
+                <h1>республики дагестан</h1>
+            </div>
+            <div class="brand">
+                <img src="resources/images/header_img_03.png"/>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <ul class="menu">
+                <li><a href="index.html">Домой</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="prezident.html">Президент РД</a></li>
+                <li><a href="#">Правительства РД</a></li>
+                <li class="active"><a href="districts.html">Районы и округа</a><span class="corner-menu"></span></li>
+                <li><a href="document.html">Документы</a></li>
+                <li><a href="#">О Дагестане</a></li>
+                <li><a href="#">Обратный связь</a></li>
+            </ul>
+            <div class="underline-menu">
+
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="bread-crumbs">
+            <span class="step">Районы и округа<span class="corner-next">></span></span><span class="step">Выбор района</span>
+        </div>
+		<div class="main-content">
+            <div class="district-picked-section">
+				<div class="header-and-podsait">
+					<h3>южно-сухокумск</h3>
+					<a class="podsait" href="http://www.podsait.ru">http://www.podsait.ru</a>
+				</div>
+                <div>
+					<div class="paragraph">
+						<img src="resources/images/suhokumsk_big.jpg"/>
+						<p>
+							При вашем рождении, говоря с биологической точки зрения, вы являлись комбинацией ДНК ваших родителей. Вы не были точной копией ни одного из них, но были похожи на обоих. ОО использует для объектов этот же принцип. Представьте опять объект Человек. Вспомните, что каждый этот объект имеет национальность. Не все эти объекты имеют одинаковую национальность, но не являются ли они похожими? Конечно! Это не Лошади, или Шимпанзе, или Киты.
+						</p>
+					</div>
+					<div class="paragraph">					
+						<p>
+						<img src="resources/images/kurbanchiev_small.jpg"/>
+							В терминах ООП Человек и Ребенок являются классами в одной иерархии и (вероятнее всего) Ребенок наследует характеристики и поведение от своего родителя. Мы говорим, что конкретный Ребенок имеет тип Человек, или что этот Ребенок наследуется из объекта Человек. Это не срабатывает в обратную сторону - Человек не обязательно Ребенок. Каждый объект Ребенок является экземпляром класса Ребенок, и когда мы создаем объект Ребенок, мы создаем его экземпляр. </br></br>
+							В терминах Java Человек - это суперкласс классов Ребенок и Подросток, которые являются подклассами класса Человек. Еще одной концепцией, связанной с наследованием, является абстракция. Человек находится на более высоком уровне абстракции, чем Ребенок или Подросток. Оба они имеют тип Человек, но несколько отличаются. Все объекты Человек имеют некоторые общие свойства (например, имя и возраст). Мы рассмотрим смысл этого в следующем разделе.
+							"Говорит" ли Ребенок также как Подросток? Конечно же, нет. Ребенок издает шум, который не всегда является распознаваемыми словами, которые используют объекты Подросток. Поэтому, когда я создаю экземпляр объекта Ребенок (высказывание "создать экземпляр Ребенка" означает то же самое - слово "объект" подразумевается) и указываю ему "говорить", он может ворковать или булькать. Ожидается, что Подросток будет более внятен.</br></br>
+							В иерархии человечества мы имеем класс Человек на вершине иерархии и классы Ребенок и Подросток ниже, в качестве подклассов. Все объекты Человек могут говорить, поэтому объекты Ребенок и Подросток тоже могут, но делают это по-разному. Ребенок булькает и издает простейшие звуки. Подросток произносит слова. Вот что означает полиморфизм: объекты делают вещи по-разному.
+						</p>
+					</div>
+                </div>
+            </div>
+        </div>
+        <div class="aside">
+            <div class="content-menu">
+                <ul>
+                    <li class="active">карта районов</li>
+                    <li>список районов</li>
+                    <li>связаться с нами</li>
+                </ul>
+            </div>
+            <div class="list-link">
+                <ul>
+                    <li><a href="#"><img src="resources/images/banner_dagtorgi.jpg"></a></li>
+                    <li><a href="#"><img src="resources/images/banner_goverment_rf.jpg"></a></li>
+                    <li><a href="#"><img src="resources/images/president.jpg"></a></li>
+                    <li><a href="#"><img src="resources/images/narod_sobr.jpg"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <ul>
+        <li>
+            Новости
+            <ul>
+                <li>Стенограммы</li>
+                <li>Пресс-релизы</li>
+                <li>Телеграммы</li>
+            </ul>
+        </li>
+        <li>
+            Президент РД
+            <ul>
+                <li>Биография</li>
+                <li>Фотогалерея</li>
+                <li>Новости</li>
+                <li>Контакты</li>
+            </ul>
+        </li>
+        <li>
+            Правительство РД
+            <ul>
+                <li>Структура правительства</li>
+                <li>Деятельность правительства</li>
+            </ul>
+        </li>
+        <li>
+            Районы и округа
+            <ul>
+                <li>Карта</li>
+                <li>Список</li>
+            </ul>
+        </li>
+        <li>
+            Документы
+            <ul>
+                <li>Поиск</li>
+                <li>Документы</li>
+            </ul>
+        </li>
+        <li>
+            О Дагестане
+            <ul>
+                <li>Официвльная символика</li>
+                <li>История</li>
+                <li>Почетные граждане</li>
+                <li>Фотогалерея</li>
+            </ul>
+        </li>
+        <li>
+            Обратная связь
+            <ul>
+                <li>Задать вопрос</li>
+                <li>Вопрос-ответ</li>
+                <li>Опросы</li>
+            </ul>
+        </li>
+
+    </ul>
+</div>
+</body>
+</html>

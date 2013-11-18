@@ -9,3 +9,13 @@
     float: right;
     margin-top: 10px;
 }
+.body-download p {
+	font-size: 14px;
+	line-height: 18px;
+}
+.body-download .file-ic {
+	display: block;
+	height: 34px;
+	float: left;
+	margin-left: 10px;
+}
