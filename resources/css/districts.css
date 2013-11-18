@@ -8,34 +8,11 @@
 	padding: 20px 0 40px 10px;
 	}
 	
-.official-profile {
-	float: right;
-	text-align: center;
+.distr-description {
+	margin-top: 30px;
 	}
 	
-.profile-town {
-	display: inline-block;
-	clear: both;
-	}
-	
-.profile-town img {
-	float: left;
-	}
-	
-.profile-town span {
-	vertical-align: top;
+.distr-description p {
 	font-size: 14px;
-	color: rgb(203, 42, 25);
-	padding-top: 10px;
-	padding-left: 5px;
-	float: left;
-	}
-
-.official-photo {
-	margin-top: 15px;
-	margin-bottom: 5px;
-	}
-
-.official-profile p {
-	font-size: 14px;
+	margin-bottom: 10px;
 	}	
