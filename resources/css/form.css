@@ -63,7 +63,7 @@ label{
 }
 select,
 textarea{
-    padding:0 3px;
+    padding:0 0px;
     border: 1px solid #033f5d;
 }
 .col select {
@@ -71,7 +71,7 @@ textarea{
 
 }
 .numdoc-input { 
-	width: 82px;
+	width: 88px;
 }
 .col .row input[type="text"]:last-child {margin-right: 0;}
 
@@ -83,15 +83,20 @@ textarea{
     width:18%;
     color:#636363;
 }
-.submit-request textarea{
-    height:180px;
+.submit-request textarea {
+    height: 180px;
+    width: 80% !important;
 }
 .textarea-row label{
     vertical-align:top;
 }
 .row .fluid-field{
-    width:80%;
+    width: 79.3%;
 }
+.row select.fluid-field {
+    width: 80.3%;
+}
+
 .nb{
     display:block;
     margin:-8px 0 15px;
