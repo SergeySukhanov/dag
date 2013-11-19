@@ -16,7 +16,7 @@
 
 .list-item {
     width: 270px;
-	margin-right: 27px;
+	margin-right: 25px;
     background-color: #aaaaaa;
 }
 .list-item li,
@@ -29,7 +29,7 @@
     border: 1px solid #aaaaaa;
 }
 .list-item li {
-    padding: 10px 39px 12px 20px;
+    padding: 10px 35px 12px 20px;
 	height: 43px;
 	overflow: hidden;
 }
@@ -52,8 +52,8 @@
 }
 
 .static-tabs {
-    width: 268px;
-    margin-left: 25px;
+    width: 270px;
+    margin-left: 24px;
 }
 
 .static-tabs ul {
@@ -82,6 +82,10 @@
     display: block;
     text-align: right;
     color: #cccccc;
+}
+.static-tabs a:hover {
+	text-decoration: underline;
+	color: #043f5d;
 }
 
 

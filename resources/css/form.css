@@ -15,7 +15,7 @@
 .col input[type="text"]{
     margin-right:10px;
 }
-.row{
+.col .row{
     margin-bottom:16px;
 }
 .row input[type="text"] {
