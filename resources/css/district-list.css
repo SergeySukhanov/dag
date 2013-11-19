@@ -10,9 +10,12 @@
     visibility: hidden;
 }
 .district-list-col {
-	width: 31%;
+	width: 200px;
 	margin-right: 14px;
 	float: left;
+}
+.district-list-col:last-child {
+	margin-right: 0;
 }
 .alpha-item {
 	margin-bottom:20px;

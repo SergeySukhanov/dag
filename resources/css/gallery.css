@@ -40,6 +40,12 @@ body{
     position:absolute;
     top:0;
     right:0;
+	width: 24px;
+	height: 25px;
+	display: block;
+	text-indent: 9999px;
+	overflow: hidden;
+	background: url(../images/full_size.png) no-repeat 0 0;
 }
 .modal-overlay{
     display:none;
@@ -61,11 +67,17 @@ body{
     position: fixed;
     top: 46%;
     width: 700px;
-    padding-top:40px;
+    padding-top:0px;
     background:#fff;
 }
 .view-region .close-btn{
     position:absolute;
-    top:5px;
-    right:5px;
+    top:0px;
+    right:0px;
+	width: 24px;
+	height: 25px;
+	display: block;
+	text-indent: 9999px;
+	overflow: hidden;
+	background: url(../images/min.png) no-repeat 0 0;
 }

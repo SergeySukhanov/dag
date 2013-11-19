@@ -7,7 +7,7 @@
 }
 .col .row {
 	float: left;
-	margin-right: 68px;
+	margin-right: 60px;
 }
 .col .row:last-child {
 	margin-right: 0;
@@ -79,6 +79,9 @@ textarea{
 /*fluid grid*/
 .submit-request{
     max-width:750px;
+}
+.submit-request .row {
+	margin-bottom: 10px;
 }
 .submit-request label{
     width:18%;
