@@ -41,8 +41,8 @@
 	float: none; 
 }
 
-.wide-input { 
-	width: 100%; 
+.wide-input {
+    width: 84%;
 	box-sizing: border-box;
 	margin-right: 0;
 }
