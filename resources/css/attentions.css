@@ -4,6 +4,7 @@
 }
 .section.attention-to-important h3 {
 	padding-left: 20px;
+    margin-top:10px;
 }
 .section.attention-to-important > div,
 .timer-tabs > div{
