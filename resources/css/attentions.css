@@ -1,21 +1,22 @@
 .section.attention-to-important {
     border-bottom: 2px solid #2d5f78;
     padding-bottom: 20px;
-    padding-left: 20px;
 }
-
+.section.attention-to-important h3 {
+	padding-left: 20px;
+}
 .section.attention-to-important > div,
 .timer-tabs > div{
     display: inline-block;
     vertical-align: top;
 }
 .timer-tabs {
-    width: 67%;
     min-height: 285px;
 }
 
 .list-item {
-    width: 39%;
+    width: 270px;
+	margin-right: 27px;
     background-color: #aaaaaa;
 }
 .list-item li,
@@ -28,7 +29,9 @@
     border: 1px solid #aaaaaa;
 }
 .list-item li {
-    padding: 12px 39px 12px 20px;
+    padding: 10px 39px 12px 20px;
+	height: 43px;
+	overflow: hidden;
 }
 .static-tabs li {
     display: inline-block;
@@ -36,7 +39,7 @@
 }
 
 .current-item {
-    width: 60%;
+    width: 367px;
 }
 
 .current-item img {
@@ -49,8 +52,8 @@
 }
 
 .static-tabs {
-    width: 29%;
-    margin-left: 30px;
+    width: 268px;
+    margin-left: 25px;
 }
 
 .static-tabs ul {

@@ -42,7 +42,8 @@
 }
 
 .wide-input { 
-	width: 642px; 
+	width: 100%; 
+	box-sizing: border-box;
 	margin-right: 0;
 }
 .row input[type="button"], .row input[type="submit"] {
