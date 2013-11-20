@@ -1,6 +1,22 @@
 .about-text {
 	overflow: hidden;
+	padding: 5px 0 10px;
 }
-.about-text img {
+.about-text .img-left {
 	float: left;
+	margin: 2px 13px 2px 0;
+}
+.about-section .pnl-head {
+	margin-left: -20px;
+}
+.about-text p {
+	padding-bottom: 18px;
+	line-height: 18px;
+	font-size: 14px;
+}
+.about-section .pnl-head {
+	margin-bottom: 10px;
+}
+.mp3-player {
+	margin-bottom: 18px;
 }
