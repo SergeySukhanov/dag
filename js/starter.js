@@ -9,7 +9,7 @@ $(document).ready(function(){
    var opt = {
        wrap:null
    };
+   $('.datepicker').datepicker();
     new TimerTabsCtrl(opt);
     new SimpleGallery(opt);
-   $('.datepicker').datepicker();
 });
