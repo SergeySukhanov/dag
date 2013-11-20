@@ -1,6 +1,6 @@
 .aside {
-    width: 23%;
-    max-width: 320px;
+    width: 273px;
+	margin-bottom: 30px;
 }
 
 .content-menu ul {
@@ -9,7 +9,6 @@
 
 .content-menu li {
     text-transform: uppercase;
-    padding: 12px;
     border: 1px solid #fcfcfc;
     background-color: #777777;
     color: #ffffff;
@@ -19,4 +18,13 @@
 
 .content-menu li.active{
     background-color: #d81900;
+}
+.content-menu li a {
+    color: #ffffff;
+    display: block;
+    padding: 12px;
+}
+
+.my-dagestan-head h3 {
+    margin-left: 20px;
 }

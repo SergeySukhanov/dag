@@ -30,7 +30,6 @@ h3{
     font-family: Tahoma, sans-serif;
     text-transform: uppercase;
     font-weight: 200;
-    margin-top: 10px;
     margin-bottom: 10px;
 }
 
@@ -40,8 +39,7 @@ a{
 }
 
 #wrapper{
-    width: 85%;
-    min-width: 960px;
+    width: 980px;
     min-height: 100%;
     background-color: #ffffff;
     margin: 0 auto;
@@ -63,9 +61,8 @@ a{
 .footer {
     height: 100px;
     background-color: #f1f1f1;
-    width: 85%;
+    width: 980px;
     margin: 0 auto;
-    min-width:1000px;
 }
 
 .active {

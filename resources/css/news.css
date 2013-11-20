@@ -1,6 +1,5 @@
 .bread-crumbs {
     height: 30px;
-    margin-bottom: 20px;
     color: #666666;
     font-size: 14px;
     padding-top: 20px;
@@ -34,9 +33,9 @@
 
 
 .main-content {
-    width: 68%;
+    width: 642px;
     margin-left: 20px;
-    margin-right: 30px;
+    margin-right: 26px;
 }
 
 .news-item {
