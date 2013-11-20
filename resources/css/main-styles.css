@@ -57,7 +57,13 @@ a{
     display: inline-block;
     vertical-align: top;
 }
-
+.aside .list-link,
+.aside .datepicker,
+.aside .opinion-wrapper{
+    margin-top:30px;
+    padding-top:32px;
+    background:url('../images/aside-bg.png') repeat-x;
+}
 .footer {
     height: 100px;
     background-color: #f1f1f1;
