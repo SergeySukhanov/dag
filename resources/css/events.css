@@ -25,7 +25,7 @@
     display: inline-block;
 }
 .left-side.inner-page-left {
-	margin-left: 25px;
+    width: 688px;
 }
 .right-side {
     width: 273px;
