@@ -2,8 +2,8 @@
     height: 30px;
     color: #666666;
     font-size: 14px;
-    padding-top: 20px;
-    margin-left: 20px;
+    padding-top: 15px;
+    margin:0 0 10px 20px;
 }
 
 .bread-crumbs > div {
@@ -28,16 +28,14 @@
     font-size: 14px !important;
 }
 
-
-
-
-
 .main-content {
     width: 642px;
     margin-left: 20px;
     margin-right: 26px;
 }
-
+.left-side .main-content{
+    width:auto;
+}
 .news-item {
     min-height: 135px;
 }

@@ -80,11 +80,8 @@
 
 .head-opinion {
     background-color: #043f5d;
-    color: #ffffff;
-    padding-top: 0px;
-    padding-bottom: 2px;
-    padding-left: 10px;
-    padding-right: 10px;
+    color: #fff;
+    padding:8px 10px;
 }
 
 .head-opinion > * {
@@ -93,13 +90,14 @@
 
 .head-opinion h3 {
     font-size: 15px;
+    margin: 0;
 }
 
 .head-opinion a {
     color: #ffffff;
     text-decoration: underline;
     float: right;
-    margin-top: 11px;
+    margin-top:1px;
 }
 
 .body-opinion {
