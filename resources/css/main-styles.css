@@ -74,3 +74,15 @@ a{
 .active {
     background-color: #d81900 !important;
 }
+.cf {
+	min-height: 1%;
+    display: block;
+}
+
+.cf:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
