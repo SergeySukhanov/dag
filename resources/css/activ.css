@@ -104,3 +104,11 @@
 	font-size: 14px;
 	text-decoration: underline;
 }
+.toggle-title { 
+	background: url(../images/header-arrow-open.gif) no-repeat 0 6px;
+	padding-left: 23px;
+	cursor: pointer;
+}
+.toggle-title.close { 
+	background: url(../images/header-arrow.gif) no-repeat 0 6px;
+}

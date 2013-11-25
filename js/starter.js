@@ -10,6 +10,8 @@ $(document).ready(function(){
        wrap:null
    };
    $('.datepicker').datepicker();
-    new TimerTabsCtrl(opt);
+	
+	Tools.toggleFilter('.toggle-title');
+	new TimerTabsCtrl(opt);
     new SimpleGallery(opt);
 });
