@@ -91,50 +91,52 @@
     </div>
     <div class="main-content">
         <div class="document-section">
-            <div class="search-document">
+            <div class="search-document filters-wrapper">
                 <h3>поиск</h3>
-                <div class="col">
-                    <div class="row">
-                        <label for="data-to">Дата принятия:</label>
-                        <span>С</span>
-                        <input type="text" class="date-input" id="data-to" />
-                        <span>По</span>
-                        <input type="text" class="date-input" />
+                <div class="filter-fields">
+                    <div class="col">
+                        <div class="row">
+                            <label for="data-to">Дата принятия:</label>
+                            <span>С</span>
+                            <input type="text" class="date-input" id="data-to" />
+                            <span>По</span>
+                            <input type="text" class="date-input" />
+                        </div>
+                        <div class="row">
+                            <label>№ документа:</label>
+                            <input type="text" class="numdoc-input" />
+                        </div>
                     </div>
-                    <div class="row">
-                        <label>№ документа:</label>
-                        <input type="text" class="numdoc-input" />
+                    <div class="col">
+                        <div class="row">
+                            <label>Тип документа:</label>
+                            <select>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <label>Район:</label>
+                            <select>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </div>
                     </div>
-                </div>
-                <div class="col">
-                    <div class="row">
-                        <label>Тип документа:</label>
-                        <select>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                        </select>
+                    <div class="col col-wide">
+                        <div class="row">
+                            <label>Содержание:</label>
+                            <input type="text" class="wide-input" />
+                        </div>
                     </div>
-                    <div class="row">
-                        <label>Район:</label>
-                        <select>
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                        </select>
+                    <div class="col col-wide">
+                        <div class="row">
+                            <input type="button" value="искать"/>
+                        </div>
                     </div>
-                </div>
-                <div class="col col-wide">
-                    <div class="row">
-                        <label>Содержание:</label>
-                        <input type="text" class="wide-input" />
-                    </div>
-                </div>
-                <div class="col col-wide">
-                    <div class="row">
-                        <input type="button" value="искать"/>
-                    </div>
-                </div>
+                </div><!--/filter-fields-->
             </div>
             <div class="download">
                 <div class="head-download">

@@ -92,26 +92,28 @@
         <div class="main-content">
         	<div class="filters-wrapper activ-filters">
         		<h3>Фильтр</h3>
-                <div class="col">
-                    <div class="row">
-                        <label for="data-to">Дата:</label>
-                        <span>С</span>
-                        <input type="text" class="date-input" id="data-to" >
-                        <span>По</span>
-                        <input type="text" class="date-input" >
+                <div class="filter-fields">
+                    <div class="col">
+                        <div class="row">
+                            <label for="data-to">Дата:</label>
+                            <span>С</span>
+                            <input type="text" class="date-input" id="data-to" >
+                            <span>По</span>
+                            <input type="text" class="date-input" >
+                        </div>
+                        <div class="row">
+                            <input type="checkbox" id="filter-past" />
+                            <label for="filter-past">Важные</label>
+                            <input type="checkbox" id="filter-future" />
+                            <label for="filter-future">Районные</label>
+                        </div>
+                    </div><!--/col-->
+                    <div class="col col-wide">
+                        <div class="row">
+                            <input type="button" value="показать">
+                        </div>
                     </div>
-                    <div class="row">
-                        <input type="checkbox" id="filter-past" />
-                        <label for="filter-past">Важные</label>
-                        <input type="checkbox" id="filter-future" />
-                        <label for="filter-future">Районные</label>
-                    </div>
-                </div><!--/col-->
-                <div class="col col-wide">
-                    <div class="row">
-                        <input type="button" value="показать">
-                    </div>
-                </div>
+                  </div><!--/filter-fields-->
               </div>
            <div class="news-section">
               <div class="news-item">
