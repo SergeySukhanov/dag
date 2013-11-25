@@ -89,11 +89,30 @@
     	<div class="bread-crumbs">
             <span class="step">Новости<span class="corner-next">&gt;</span></span><span class="step">Сюжеты</span>
         </div>
-        <div class="bread-crumbs second-bc">
-           <div class="filters-wrapper"><span class="filters">фильтровать //</span><a href="#">Важные</a><a href="#">Районные</a></div>
-           <div><span class="to">С</span><a href="#">Выбрать дату</a><span class="from">ПО</span><a href="#">Выбрать дату</a></div>
-        </div>
         <div class="main-content">
+        	<div class="filters-wrapper activ-filters">
+        		<h3>Фильтр</h3>
+                <div class="col">
+                    <div class="row">
+                        <label for="data-to">Дата:</label>
+                        <span>С</span>
+                        <input type="text" class="date-input" id="data-to" >
+                        <span>По</span>
+                        <input type="text" class="date-input" >
+                    </div>
+                    <div class="row">
+                        <input type="checkbox" id="filter-past" />
+                        <label for="filter-past">Важные</label>
+                        <input type="checkbox" id="filter-future" />
+                        <label for="filter-future">Районные</label>
+                    </div>
+                </div><!--/col-->
+                <div class="col col-wide">
+                    <div class="row">
+                        <input type="button" value="показать">
+                    </div>
+                </div>
+              </div>
            <div class="news-section">
               <div class="news-item">
                   <h3>праздник народного танца</h3>
