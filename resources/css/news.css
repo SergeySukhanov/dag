@@ -5,7 +5,9 @@
     padding-top: 15px;
     margin:0 0 10px 20px;
 }
-
+.bread-crumbs.second-bc {
+	padding-top: 0; 
+}
 .bread-crumbs > div {
     display: inline-block;
 }
