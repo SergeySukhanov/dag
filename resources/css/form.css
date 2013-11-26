@@ -73,6 +73,12 @@ textarea{
     box-shadow: 0 1px 2px #999999 inset;
 	border-bottom: 1px solid #F7F7F7;
 }
+select {
+	border: 1px solid #e5e5e5;
+	border-bottom: 1px solid #F7F7F7;
+	border-top: 1px solid #cccccc;
+	box-shadow: 0 1px 1px #bbbbbb inset;
+}
 .col select {
 	width: 212px;
 
@@ -118,4 +124,49 @@ textarea{
 .nb .star{
     color:#f00;
 }
+.form-icons {
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin-right: 8px;
+	vertical-align: top;
+}
 
+.form-icons.ic-fio {
+	background-image: url(../images/ic-fio.png);
+}
+.form-icons.ic-mail {
+	background-image: url(../images/ic-mail.png);
+}
+.form-icons.ic-type {
+	background-image: url(../images/ic-type.png);
+}
+.form-icons.ic-adres {
+	background-image: url(../images/ic-adres.png);
+	width: 19px; 
+	margin-right: 5px;
+}
+.form-icons.ic-question {
+	background-image: url(../images/ic-question.png);
+	width: 18px; 
+	height:17px;
+	margin-right: 6px;
+	vertical-align: middle;
+}
+.submit-request .row {
+	background: url(../images/shadow-form.png) no-repeat center top;
+	padding-bottom: 8px;
+	padding-top: 18px;
+}
+.submit-request .row.first {
+	background: none;
+	padding-top: 0;
+}
+.submit-request .row:last-child {
+	background: none;
+	padding-top: 0;
+	padding-bottom: 20px;
+	overflow: hidden;
+}
