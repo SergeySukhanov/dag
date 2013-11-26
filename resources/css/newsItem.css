@@ -38,7 +38,9 @@
     color: #043f5d;
     text-decoration: underline;
 }
-
+.head-comments .share {
+	margin-left: 20px;
+}
 .comments-item {
     margin-bottom: 20px;
 }

@@ -53,11 +53,14 @@
 .activ-item div > span {
 	color: #999999;
 	font-size: 12px;
+	line-height: 16px;
+	float: left;
 }
 .activ-item div > a {
 	float: right;
 	color: #043f5d;
 	text-decoration: underline;
+	line-height: 16px;
 }
 
 .activ-filters {
