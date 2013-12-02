@@ -1,0 +1,81 @@
+.head-download > * {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #333333;
+}
+.head-download {
+	padding-top:22px;
+}
+.number-rule {
+    float: right;
+}
+.download {
+	margin-bottom: 40px;
+}
+.body-download p {
+	font-size: 14px;
+	line-height: 18px;
+}
+.body-download .file-ic {
+	display: block;
+	height: 34px;
+	float: left;
+	width: 34px;
+	margin-right: 5px;
+	background: url(../images/doc_ic.gif) no-repeat 0px 0px;
+}
+.download-file {
+	padding-top:10px;
+	margin-bottom: 5px;
+}
+.body-download .file-size {
+	color: #a7a9ac;
+	font-size: 12px;
+	line-height: 16px;
+	display: block;
+}
+.body-download a, 
+.doc-addit-text a,
+.addit-left-links a {
+	color: #043f5d;
+	text-decoration: underline;
+}
+.see-more {
+	background:url(../images/see-more.png) no-repeat left center;
+	padding-left: 30px;
+}
+.additional-docs .pnl-head {
+	margin-left: -20px;
+	margin-bottom: 10px;
+}
+.right-subtitle {
+	font-size: 14px;
+	line-height: 24px;
+	float: right;
+	width: 198px;
+}
+.doc-addit-text {
+	width: 380px;
+	margin-right: 15px;
+	float: left;
+}
+.doc-addit-text p {
+	font-size: 14px;
+	line-height: 18px;
+	padding-bottom: 8px;
+}
+.addit-left-links {
+	padding-left: 20px;
+	float: left;
+	width: 210px;
+	min-height: 140px;
+	background: url(../images/right-separator.png) no-repeat 0 0;
+}
+.addit-left-links li {
+	padding-bottom: 15px;
+}
+.addit-left-links a {
+	line-height: 18px;
+	font-size: 14px;
+}

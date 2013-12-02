@@ -1,0 +1,83 @@
+body{
+	position:relative;
+	z-index:1;
+}
+.gallery{
+    margin-bottom:1.5em;
+}
+.current-photo,
+.list-photo{
+    display:inline-block;
+    vertical-align:top;
+}
+.current-photo{
+    position:relative;
+    width:60%;
+}
+.gallery img,
+.view-region img{
+    width:100%;
+}
+.list-photo {
+    height:300px;
+    overflow-y:scroll;
+    margin-left:3%;
+    width:36%;
+}
+.list-photo ul{
+    margin-left:-3%;
+}
+.list-photo li{
+   display:inline-block;
+   margin:0 0 3% .5em;
+   width:44%;
+
+}
+.list-photo li:hover{
+    cursor:pointer;
+}
+.gallery .show-modal{
+    position:absolute;
+    top:0;
+    right:0;
+	width: 24px;
+	height: 25px;
+	display: block;
+	text-indent: 9999px;
+	overflow: hidden;
+	background: url(../images/full_size.png) no-repeat 0 0;
+}
+.modal-overlay{
+    display:none;
+    position:fixed;
+	top:0;
+    z-index:1000;
+    width:100%;
+    height:100%;
+	background-color:rgba(0, 0, 0, 0.3);
+    background-image:url(data:;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAgY0hSTQAAeiYAAICEAAD6AAAAgOgAAHUwAADqYAAAOpgAABdwnLpRPAAAABl0RVh0U29mdHdhcmUAUGFpbnQuTkVUIHYzLjUuNUmK/OAAAAATSURBVBhXY2RgYNgHxGAAYuwDAA78AjwwRoQYAAAAAElFTkSuQmCC); 
+	}
+.view-region{
+    z-index:1002;
+    display:none;
+    height:500px;
+    left: 50%;
+    margin-left: -350px;
+    margin-top: -280px;
+    position: fixed;
+    top: 46%;
+    width: 700px;
+    padding-top:0px;
+    background:#fff;
+}
+.view-region .close-btn{
+    position:absolute;
+    top:0px;
+    right:0px;
+	width: 24px;
+	height: 25px;
+	display: block;
+	text-indent: 9999px;
+	overflow: hidden;
+	background: url(../images/min.png) no-repeat 0 0;
+}

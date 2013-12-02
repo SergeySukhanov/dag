@@ -1,0 +1,134 @@
+.bread-crumbs {
+    height: 30px;
+    color: #666666;
+    font-size: 14px;
+    padding-top: 15px;
+    margin:0 0 10px 20px;
+}
+.bread-crumbs.second-bc {
+	padding-top: 0;
+}
+.bread-crumbs > div {
+    display: inline-block;
+}
+
+.filters {
+    margin-right: 5px;
+}
+.bread-crumbs a {
+    font-size: 11px;
+    text-decoration: none;
+    color: #043f5d;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.filters-wrapper a {
+    color: #666666 !important;
+    text-decoration: none;
+    margin-right: 10px !important;
+    font-size: 14px !important;
+}
+
+.main-content {
+    width: 642px;
+    margin-left: 20px;
+    margin-right: 26px;
+}
+.left-side .main-content{
+    width:auto;
+}
+.news-item {
+    min-height: 135px;
+}
+
+.news-item h4 {
+    font-size: 17px;
+}
+
+.news-item img {
+    width: 20%;
+    float: left;
+    margin-right: 15px;
+}
+
+.news-item p {
+    color: #666666;
+    min-height: 80px;
+}
+
+.news-item div {
+    clear: both;
+    position: relative;
+    margin-left: 22%;
+    top: -15px;
+}
+
+.news-item div > span {
+    color: #999999;
+    font-size: 14px;
+}
+
+.news-item .date {
+    margin-right: 5px;
+}
+
+.news-item div > a {
+    float: right;
+    color: #043f5d;
+    text-decoration: underline;
+}
+
+.pagination {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #043f5d;
+}
+
+.pagination > * {
+    display: inline-block;
+}
+
+.pagination li {
+    display: inline-block;
+    background-color: #ffffff !important;
+}
+
+.pagination a {
+    color: #ffffff;
+    padding: 3px 16px;
+    background-color: #043f5d;
+}
+.pagination > a {
+    text-decoration: underline;
+    background-color: transparent;
+    color: #043f5d;
+    display: block;
+    padding-left: 11px;
+    margin-top: 5px;
+}
+
+.pagination .active a{
+    background-color: #ffffff;
+    color: #333333;
+    text-decoration: none;
+    padding: 2px 15px;
+    border: 1px solid #333333;
+}
+
+.prev, .next {
+    background-image: url(../images/corners.PNG);
+    background-repeat: no-repeat;
+    width: 15px;
+    height: 15px;
+}
+
+.prev {
+    background-position: 0px 2px;
+}
+
+.next {
+    background-position: 0 -12px;
+}
+

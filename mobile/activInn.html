@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test page</title>
+    <meta http-equiv="content-type" charset="utf-8">
+
+    <link rel="stylesheet" href="resources/css/main-styles.css"/>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="js/modules/timerTabsCtrl.js"></script>
+    <script src="js/modules/gallery.js"></script>
+    <script src="js/modules/tools.js"></script>
+    <script src="js/starter.js"></script>
+</head>
+<body>
+<div id="wrapper">
+    <div class="header">
+        <div class="header-top">
+            <div class="top">
+                <div class="info">
+                    <p>Общая иноформация</p>
+                </div>
+                <div class="weather">
+                    <p>Погода</p>
+                </div>
+                <div class="members">
+                    <p>Посещение сайта</p>
+                </div>
+                <div class="account">
+                    <ul>
+                        <li><a href="#">Личный кабинет</a></li>
+                        <li><a href="#">Вход</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom">
+                <div class="nav">
+                    <select>
+                        <option>Навигация по государственным сайтам</option>
+                        <option>Навигация по государственным сайтам</option>
+                        <option>Навигация по государственным сайтам</option>
+                        <option>Навигация по государственным сайтам</option>
+                        <option>Навигация по государственным сайтам</option>
+                    </select>
+                </div>
+                <div class="search">
+                    <input type="text" placeholder="Поиск"/>
+                    <input type="button" value="Найти"/>
+                </div>
+                <div class="version">
+                    <p>версия для слабовидящих</p>
+                </div>
+                <div class="local">
+                    <ul>
+                        <li><img src="resources/images/mob_phone.png"/></li>
+                        <li><img src="resources/images/lang_en.gif"/></li>
+                        <li><img src="resources/images/lang_ru.gif"/></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="header-center">
+            <div class="title-page">
+                <h2>официальный портал органов власти</h2>
+                <h1>республики дагестан</h1>
+            </div>
+            <div class="brand">
+                <img src="resources/images/header_img_03.png"/>
+            </div>
+        </div>
+
+        <div class="header-bottom">
+            <ul class="menu">
+                <li><a href="index.html">Домой</a></li>
+                <li><a href="news.html">Новости</a></li>
+                <li><a href="prezident.html">Президент РД</a></li>
+                <li class="active"><a href="activ.html">Правительство РД</a><span class="corner-menu"></span></li>
+                <li><a href="districts.html">Районы и округа</a></li>
+                <li><a href="document.html">Документы</a></li>
+                <li><a href="#">О Дагестане</a></li>
+                <li><a href="questions.html">Обратная связь</a></li>
+            </ul>
+            <div class="underline-menu">
+
+            </div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="bread-crumbs">
+        	<span class="step">Правительства РД<span class="corner-next">&gt;</span></span><span class="step">Деятельность правительства<span class="corner-next">&gt;</span></span><span class="step">Социальная сфера</span>
+    	</div>
+        
+        <div class="main-content">
+        	<h3>Социальная сфера</h3>
+            <div class="filters-wrapper activ-filters">
+        		<h3 class="toggle-title">Фильтр</h3>
+                <div class="filter-fields">
+                    <div class="col">
+                        <div class="row">
+                            <label for="data-to">Дата:</label>
+                            <span>С</span>
+                            <input type="text" class="date-input" id="data-to" >
+                            <span>По</span>
+                            <input type="text" class="date-input" >
+                        </div>
+                        <div class="row">
+                            <input type="checkbox" id="filter-past" />
+                            <label for="filter-past">Прошедшее</label>
+                            <input type="checkbox" id="filter-future" />
+                            <label for="filter-future">Планируемое</label>
+                        </div>
+                    </div><!--/col-->
+                    <div class="col col-wide">
+                        <div class="row">
+                            <label for="filter-name">По названию:</label>
+                            <input type="text" id="filter-name" class="wide-input" />
+                        </div>
+                    </div><!--/col-->
+                    <div class="col col-wide">
+                        <div class="row">
+                            <input type="button" value="показать">
+                        </div>
+                    </div>
+                  </div><!--/filter-fields-->
+              </div><!-- /filters-wrapper-->
+           <div class="activ-section">
+           	  <div class="activ-item">
+              	<a href="#">
+              	 <h4><span>Городское хозяйство</span></h4>
+                 <img src="resources/images/activ-img.jpg" alt="Городское хозяйство" />
+				 <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                 </a>
+                 <div>
+                	<span class="date">23.08.2013</span>
+                    <a href="#">подробнее</a>
+                 </div>
+              </div><!--/activ-item-->
+              <div class="activ-item">
+              	<a href="#">
+              	 <h4><span>Строительство и реконструкция</span></h4>
+                 <img src="resources/images/activ-img.jpg" alt="Городское хозяйство" />
+				 <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                 </a>
+                 <div>
+                	<span class="date">23.08.2013</span>
+                    <a href="#">подробнее</a>
+                 </div>
+              </div><!--/activ-item-->
+              <div class="activ-item">
+              	<a href="#">
+              	 <h4><span>Городское хозяйство</span></h4>
+                 <img src="resources/images/activ-img.jpg" alt="Городское хозяйство" />
+				 <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                 </a>
+                 <div>
+                	<span class="date">23.08.2013</span>
+                    <a href="#">подробнее</a>
+                 </div>
+              </div><!--/activ-item-->
+              <div class="activ-item">
+              	<a href="#">
+              	 <h4><span>Городское хозяйство</span></h4>
+                 <img src="resources/images/activ-img.jpg" alt="Городское хозяйство" />
+				 <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                 </a>
+                 <div>
+                	<span class="date">23.08.2013</span>
+                    <a href="#">подробнее</a>
+                 </div>
+              </div><!--/activ-item-->
+              <div class="activ-item">
+              	<a href="#">
+              	 <h4><span>Городское хозяйство</span></h4>
+                 <img src="resources/images/activ-img.jpg" alt="Городское хозяйство" />
+				 <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                 </a>
+                 <div>
+                	<span class="date">23.08.2013</span>
+                    <a href="#">подробнее</a>
+                 </div>
+              </div><!--/activ-item-->
+              <div class="activ-item">
+              	<a href="#">
+              	 <h4><span>Городское хозяйство</span></h4>
+                 <img src="resources/images/activ-img.jpg" alt="Городское хозяйство" />
+				 <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                 </a>
+                 <div>
+                	<span class="date">23.08.2013</span>
+                    <a href="#">подробнее</a>
+                 </div>
+              </div><!--/activ-item-->
+              <div class="activ-item">
+              	<a href="#">
+              	 <h4><span>Городское хозяйство</span></h4>
+                 <img src="resources/images/activ-img.jpg" alt="Городское хозяйство" />
+				 <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                 </a>
+                 <div>
+                	<span class="date">23.08.2013</span>
+                    <a href="#">подробнее</a>
+                 </div>
+              </div><!--/activ-item-->
+              <div class="activ-item">
+              	<a href="#">
+              	 <h4><span>Городское хозяйство</span></h4>
+                 <img src="resources/images/activ-img.jpg" alt="Городское хозяйство" />
+				 <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                 </a>
+                 <div>
+                	<span class="date">23.08.2013</span>
+                    <a href="#">подробнее</a>
+                 </div>
+              </div><!--/activ-item-->
+              <div class="activ-item">
+              	<a href="#">
+              	 <h4><span>Городское хозяйство</span></h4>
+                 <img src="resources/images/activ-img.jpg" alt="Городское хозяйство" />
+				 <p class="description">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt</p>
+                 </a>
+                 <div>
+                	<span class="date">23.08.2013</span>
+                    <a href="#">подробнее</a>
+                 </div>
+              </div><!--/activ-item-->
+              
+              
+           </div>
+           
+           <div class="pagination">
+                <span class="prev"></span>
+               <ul>
+                   <li class="active"><a href="#">1</a></li>
+                   <li><a href="#">2</a></li>
+                   <li><a href="#">3</a></li>
+                   <li><a href="#">4</a></li>
+               </ul>
+               <span class="next"></span>
+            </div>
+           
+        </div>
+        <div class="aside">
+            <div class="content-menu">
+               <ul>
+                   <li class="active"><a href="#">Деятельность правительства</a></li>
+                   <li><a href="#">Состав правительства</a></li>
+               </ul>
+            </div>
+            <div class="list-link">
+                <ul>
+                    <li><a href="#"><img src="resources/images/banner_dagtorgi.jpg"></a></li>
+                    <li><a href="#"><img src="resources/images/banner_goverment_rf.jpg"></a></li>
+                    <li><a href="#"><img src="resources/images/president.jpg"></a></li>
+                    <li><a href="#"><img src="resources/images/narod_sobr.jpg"></a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+    <ul>
+        <li>
+            Новости
+            <ul>
+                <li>Стенограммы</li>
+                <li>Пресс-релизы</li>
+                <li>Телеграммы</li>
+            </ul>
+        </li>
+        <li>
+            Президент РД
+            <ul>
+                <li>Биография</li>
+                <li>Фотогалерея</li>
+                <li>Новости</li>
+                <li>Контакты</li>
+            </ul>
+        </li>
+        <li>
+            Правительство РД
+            <ul>
+                <li>Структура правительства</li>
+                <li>Деятельность правительства</li>
+            </ul>
+        </li>
+        <li>
+            Районы и округа
+            <ul>
+                <li>Карта</li>
+                <li>Список</li>
+            </ul>
+        </li>
+        <li>
+            Документы
+            <ul>
+                <li>Поиск</li>
+                <li>Документы</li>
+            </ul>
+        </li>
+        <li>
+            О Дагестане
+            <ul>
+                <li>Официвльная символика</li>
+                <li>История</li>
+                <li>Почетные граждане</li>
+                <li>Фотогалерея</li>
+            </ul>
+        </li>
+        <li>
+            Обратная связь
+            <ul>
+                <li>Задать вопрос</li>
+                <li>Вопрос-ответ</li>
+                <li>Опросы</li>
+            </ul>
+        </li>
+
+    </ul>
+</div>
+</body>
+</html>

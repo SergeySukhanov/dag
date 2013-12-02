@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test page</title>
+    <meta http-equiv="content-type" charset="utf-8">
+
+    <link rel="stylesheet" href="resources/css/main-styles.css"/>
+    <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+    <script src="js/modules/timerTabsCtrl.js"></script>
+    <script src="js/modules/gallery.js"></script>
+    <script src="js/modules/tools.js"></script>
+    <script src="js/starter.js"></script>
+</head>
+<body>
+<div id="wrapper">
+<div class="header">
+    <div class="header-top">
+        <div class="top">
+            <div class="info">
+                <p>Общая иноформация</p>
+            </div>
+            <div class="weather">
+                <p>Погода</p>
+            </div>
+            <div class="members">
+                <p>Посещение сайта</p>
+            </div>
+            <div class="account">
+                <ul>
+                    <li><a href="#">Личный кабинет</a></li>
+                    <li><a href="#">Вход</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="bottom">
+            <div class="nav">
+                <select>
+                    <option>Навигация по государственным сайтам</option>
+                    <option>Навигация по государственным сайтам</option>
+                    <option>Навигация по государственным сайтам</option>
+                    <option>Навигация по государственным сайтам</option>
+                    <option>Навигация по государственным сайтам</option>
+                </select>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Поиск"/>
+                <input type="button" value="Найти"/>
+            </div>
+            <div class="version">
+                <p>версия для слабовидящих</p>
+            </div>
+            <div class="local">
+                <ul>
+                    <li><img src="resources/images/mob_phone.png"/></li>
+                    <li><img src="resources/images/lang_en.gif"/></li>
+                    <li><img src="resources/images/lang_ru.gif"/></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="header-center">
+        <div class="title-page">
+            <h2>официальный портал органов власти</h2>
+            <h1>республики дагестан</h1>
+        </div>
+        <div class="brand">
+            <img src="resources/images/header_img_03.png"/>
+        </div>
+    </div>
+
+    <div class="header-bottom">
+        <ul class="menu">
+            <li><a href="index.html">Домой</a></li>
+            <li><a href="news.html">Новости</a></li>
+            <li><a href="prezident.html">Президент РД</a></li>
+            <li><a href="activ.html">Правительство РД</a></li>
+            <li><a href="districts.html">Районы и округа</a></li>
+            <li class="active"><a href="document.html">Документы</a><span class="corner-menu"></span></li>
+            <li><a href="#">О Дагестане</a></li>
+            <li><a href="questions.html">Обратная связь</a></li>
+        </ul>
+        <div class="underline-menu">
+
+        </div>
+    </div>
+</div>
+<div class="content">
+    <div class="bread-crumbs">
+        <span class="step">Документы<span class="corner-next">&gt;</span></span><span class="step">Конституция РД</span>
+    </div>
+    <div class="main-content">
+        <div class="document-section">
+            <div class="search-document filters-wrapper">
+                <h3 class="toggle-title">поиск</h3>
+                <div class="filter-fields">
+                    <div class="col">
+                        <div class="row">
+                            <label for="data-to">Дата принятия:</label>
+                            <span>С</span>
+                            <input type="text" class="date-input" id="data-to" />
+                            <span>По</span>
+                            <input type="text" class="date-input" />
+                        </div>
+                        <div class="row">
+                            <label>№ документа:</label>
+                            <input type="text" class="numdoc-input" />
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="row">
+                            <label>Тип документа:</label>
+                            <select>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </div>
+                        <div class="row">
+                            <label>Район:</label>
+                            <select>
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col col-wide">
+                        <div class="row">
+                            <label>Содержание:</label>
+                            <input type="text" class="wide-input" />
+                        </div>
+                    </div>
+                    <div class="col col-wide">
+                        <div class="row">
+                            <input type="button" value="искать"/>
+                        </div>
+                    </div>
+                </div><!--/filter-fields-->
+            </div>
+            <div class="download">
+                <div class="head-download">
+                    <h3>Конституция РД //</h3>
+                    <span class="date">27 мая 2011</span>
+                    <span class="number-rule">№334-43</span>
+                </div>
+                <div class="body-download">
+                    <p>
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <div class="download-file">
+						<span class="file-ic"></span>
+                        <span class="file-size">244 kb</span>
+                        <a href="#">скачать документ (doc)</a>
+                    </div>
+                </div><!--/body-download-->
+            </div><!--/download-->
+            
+            <div class="additional-docs cf">
+            	<div class="pnl-head">
+                	<h3>история принятия конституции</h3>
+                    <span class="right-subtitle see-more">смотрите также</span>
+                </div>
+                <div class="doc-addit-text">
+                	<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat</p>
+                    <a href="#">читать полностью</a>
+                </div>
+                <div class="addit-left-links">
+                	<ul>
+                    	<li><a href="#">Конституция РФ</a></li>
+                        <li><a href="#">Поправки к конституции</a></li>
+                        <li><a href="#">Поправки на рассмотрении</a></li>
+                    </ul>
+                </div>
+            </div><!--/additional-docs-->
+            
+        </div>
+
+    </div>
+    <div class="aside">
+        <div class="content-menu">
+            <ul>
+                <li class="active"><a href="#">конституция рд</a></li>
+                <li><a href="#">конституция рф</a></li>
+                <li><a href="#">законы рд</a></li>
+                <li><a href="#">указы президента рд</a></li>
+                <li><a href="#">постановления правительства рд</a></li>
+                <li><a href="#">распоряжения президента рд</a></li>
+                <li><a href="#">распоряжения правительства рд</a></li>
+                <li><a href="#">тексты проектов законодательных нормативно-правовых актов</a></li>
+            </ul>
+        </div>
+        <div class="list-link">
+            <ul>
+                <li><a href="#"><img src="resources/images/banner_dagtorgi.jpg"></a></li>
+                <li><a href="#"><img src="resources/images/banner_goverment_rf.jpg"></a></li>
+                <li><a href="#"><img src="resources/images/president.jpg"></a></li>
+                <li><a href="#"><img src="resources/images/narod_sobr.jpg"></a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+<div class="footer">
+    <ul>
+        <li>
+            Новости
+            <ul>
+                <li>Стенограммы</li>
+                <li>Пресс-релизы</li>
+                <li>Телеграммы</li>
+            </ul>
+        </li>
+        <li>
+            Президент РД
+            <ul>
+                <li>Биография</li>
+                <li>Фотогалерея</li>
+                <li>Новости</li>
+                <li>Контакты</li>
+            </ul>
+        </li>
+        <li>
+            Правительство РД
+            <ul>
+                <li>Структура правительства</li>
+                <li>Деятельность правительства</li>
+            </ul>
+        </li>
+        <li>
+            Районы и округа
+            <ul>
+                <li>Карта</li>
+                <li>Список</li>
+            </ul>
+        </li>
+        <li>
+            Документы
+            <ul>
+                <li>Поиск</li>
+                <li>Документы</li>
+            </ul>
+        </li>
+        <li>
+            О Дагестане
+            <ul>
+                <li>Официвльная символика</li>
+                <li>История</li>
+                <li>Почетные граждане</li>
+                <li>Фотогалерея</li>
+            </ul>
+        </li>
+        <li>
+            Обратная связь
+            <ul>
+                <li>Задать вопрос</li>
+                <li>Вопрос-ответ</li>
+                <li>Опросы</li>
+            </ul>
+        </li>
+
+    </ul>
+</div>
+</body>
+</html>

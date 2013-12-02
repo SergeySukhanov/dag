@@ -1,0 +1,172 @@
+.col {
+	overflow: hidden;
+}
+.col:last-child {
+	border-bottom: 1px solid #033f5d;
+	padding-bottom: 25px;
+}
+.col .row {
+	float: left;
+	margin-right: 55px;
+}
+.col .row:last-child {
+	margin-right: 0;
+}
+.col .row:nth-child(2) {
+	float: right;
+}
+.col input[type="text"]{
+    margin-right:10px;
+}
+.col .row{
+    margin-bottom:16px;
+}
+.row input[type="text"] {
+    padding-left: 5px;
+	height: 17px;
+	box-shadow: 0 1px 2px #999999 inset;
+	border-bottom: 1px solid #F7F7F7;
+}
+.date-input {
+	width: 107px;
+}
+.row label, .col span {
+	vertical-align: middle; 
+	font-size: 14px;
+}
+.col input[type="checkbox"] {
+	vertical-align: middle; 
+	margin-left: 10px;
+} 
+.col input[type="checkbox"]:first-child {
+	margin-left:0;
+}
+.col-wide .row { 
+	float: none; 
+}
+
+.wide-input {
+    width: 100%;
+	 -moz-box-sizing: border-box;
+	box-sizing: border-box;
+	margin-right: 0;
+}
+.row input[type="button"], .row input[type="submit"] {
+    float:right;
+	text-transform: uppercase;
+	color: #FFF;
+	height: 37px;
+	line-height: 35px;
+	padding-left:15px;
+	padding-right: 15px;
+	background-color: #d81900;
+	cursor: pointer;
+
+}
+label{
+    display:inline-block;
+    vertical-align:middle;
+}
+select,
+textarea{
+    padding:0 0px;
+    box-shadow: 0 1px 2px #999999 inset;
+	border-bottom: 1px solid #F7F7F7;
+}
+select {
+	border: 1px solid #e5e5e5;
+	border-bottom: 1px solid #F7F7F7;
+	border-top: 1px solid #cccccc;
+	box-shadow: 0 1px 1px #bbbbbb inset;
+}
+.col select {
+	width: 212px;
+
+}
+.numdoc-input { 
+	width: 88px;
+}
+.col .row input[type="text"]:last-child {margin-right: 0;}
+
+/*fluid grid*/
+.submit-request{
+    max-width:750px;
+}
+.submit-request .row {
+	margin-bottom: 10px;
+}
+.submit-request label{
+    width:18%;
+    color:#575756;
+}
+.submit-request textarea {
+    height: 180px;
+    width: 80% !important;
+}
+.textarea-row label{
+    vertical-align:top;
+}
+.row .fluid-field{
+    width: 79.3%;
+}
+.row select.fluid-field {
+    width: 80.3%;
+}
+
+.nb{
+    display:block;
+    margin:-8px 0 15px;
+    text-transform:lowercase;
+    font-size:12px;
+    color:#636363;
+
+}
+.nb .star{
+    color:#f00;
+}
+.form-icons {
+	display: inline-block;
+	height: 16px;
+	width: 16px;
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin-right: 8px;
+	vertical-align: top;
+}
+
+.form-icons.ic-fio {
+	background-image: url(../images/ic-fio.png);
+}
+.form-icons.ic-mail {
+	background-image: url(../images/ic-mail.png);
+}
+.form-icons.ic-type {
+	background-image: url(../images/ic-type.png);
+}
+.form-icons.ic-adres {
+	background-image: url(../images/ic-adres.png);
+	width: 19px; 
+	margin-right: 5px;
+}
+.form-icons.ic-question {
+	background-image: url(../images/ic-question.png);
+	width: 18px; 
+	height:17px;
+	margin-right: 6px;
+	vertical-align: middle;
+}
+.submit-request .row {
+	background: url(../images/shadow-form.png) no-repeat center top;
+	padding-bottom: 8px;
+	padding-top: 18px;
+}
+.submit-request .row.first {
+	background: none;
+	padding-top: 0;
+}
+.submit-request .row:last-child {
+	background: none;
+	padding-top: 0;
+	padding-bottom: 20px;
+	overflow: hidden;
+}

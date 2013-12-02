@@ -1,0 +1,88 @@
+@import "header.css" screen;
+@import "content.css" screen;
+@import "footer.css" screen;
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+html{
+    width:100%;
+    height:100%;
+}
+
+html, body{
+    font-family: Tahoma, sans-serif;
+    width:100%;
+    height:100%;
+}
+
+body{
+    background-color: #f1f1f1;
+}
+
+ul{
+    list-style-type: none;
+}
+
+h3{
+    font-family: Tahoma, sans-serif;
+    text-transform: uppercase;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 12px;
+}
+
+#wrapper{
+    width: 100%;
+    min-height: 100%;
+    background-color: #ffffff;
+    margin: 0;
+}
+
+.header{
+
+}
+
+.content{
+
+}
+
+.main-content, .aside {
+    display: inline-block;
+    vertical-align: top;
+}
+.aside .list-link,
+.aside .datepicker,
+.aside .opinion-wrapper{
+    margin-top:30px;
+    padding-top:32px;
+    background:url('../images/aside-bg.png') repeat-x;
+}
+.footer {
+    height: 100px;
+    background-color: #f1f1f1;
+    width: 980px;
+    margin: 0 auto;
+}
+
+.active {
+    background-color: #d81900 !important;
+}
+.cf {
+	min-height: 1%;
+    display: block;
+}
+
+.cf:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}

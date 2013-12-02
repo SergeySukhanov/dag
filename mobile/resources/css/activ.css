@@ -1,0 +1,117 @@
+.activ-section {
+    min-height: 1%;
+    display: block;
+	width: 110%;
+	padding-bottom: 25px;
+}
+
+.activ-section:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+.activ-item {
+	width: 198px;
+	float: left;
+	margin: 0 24px 25px 0;
+}
+.activ-item h4 {
+	text-transform: uppercase;
+	font-size: 13px;
+	font-weight: normal;
+	padding: 0px 7px;
+	margin: 0;
+	display:block;
+	height: 37px;
+	line-height: 33px;
+	overflow: hidden;
+	background: #595959;
+}
+.activ-item h4 span {
+	color: #FFF;
+	line-height: 15px;
+	vertical-align: middle;	
+	display: inline-block;
+}
+.activ-item:hover h4 {
+	background: #d81900;
+}
+.activ-item img {
+	width: 100%;
+}
+.activ-item .description {
+	height: 30px;
+	overflow: hidden;
+	font-size: 12px;
+	line-height: 16px;
+	color: #000000;
+	padding: 2px 0 0;
+	margin: 0 0 10px;
+}
+.activ-item div > span {
+	color: #999999;
+	font-size: 12px;
+	line-height: 16px;
+	float: left;
+}
+.activ-item div > a {
+	float: right;
+	color: #043f5d;
+	text-decoration: underline;
+	line-height: 16px;
+}
+
+.activ-filters {
+	padding-top:2px;
+	margin-bottom: 35px;
+}
+
+.people-position {
+	display: inline-block;
+	background: #595959;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 12px;
+	line-height: 16px;
+	padding: 10px 6px;
+	margin-right: 12px;
+	margin-bottom: 10px;
+}
+.people-item .people-position {
+	background: #d81900;
+	font-weight: normal;
+	margin-bottom: 0;
+}
+.people-item {
+	overflow: hidden;
+	margin-bottom: 35px;
+}
+.people-item h4 {
+	margin-bottom: 10px;
+}
+.people-item img {
+	width: 89px;
+	float: left;
+	margin-right: 13px;
+}
+.people-item .description {
+	font-size: 14px;
+	line-height: 18px;
+	padding-bottom: 8px;
+}
+.people-item  div > a {
+	float: right;
+	color: #043f5d;
+	font-size: 14px;
+	text-decoration: underline;
+}
+.toggle-title { 
+	background: url(../images/header-arrow-open.gif) no-repeat 0 6px;
+	padding-left: 23px;
+	cursor: pointer;
+}
+.toggle-title.close { 
+	background: url(../images/header-arrow.gif) no-repeat 0 6px;
+}

@@ -1,0 +1,149 @@
+.corner-next {
+    color: #d81900;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.news-details-content {
+    margin-bottom: 45px;
+}
+
+.news-details-content p {
+    margin-bottom: 15px;
+    color: #666666;
+    font-size: 14px;
+}
+
+.news-details-content > span {
+    float: right;
+}
+
+.date {
+    color: #999999;
+    font-size: 12px;
+}
+
+.head-comments {
+    border-top: 1px solid #043f5d;
+    border-bottom: 1px solid #043f5d;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.head-comments > * {
+    display: inline-block;
+}
+
+.head-comments a {
+    color: #043f5d;
+    text-decoration: underline;
+}
+.head-comments .share {
+	margin-left: 20px;
+}
+.comments-item {
+    margin-bottom: 20px;
+}
+
+.comments-item h6 {
+    display: inline-block;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    font-weight: 200;
+    color: #333333;
+}
+
+.comments-item span {
+    float: right;
+    margin-top: 15px;
+}
+
+.comments-item p {
+    color: #666666;
+    font-size: 14px;
+}
+
+.comments-item a {
+    float: right;
+    color: #043f5d;
+    text-decoration: underline;
+}
+
+.comments-item .sub-comments-item {
+    margin-left: 58px;
+    margin-top: 15px;
+}
+
+.public-opinion {
+    border: 1px solid #043f5d;
+}
+
+.head-opinion {
+    background-color: #043f5d;
+    color: #fff;
+    padding:8px 10px;
+}
+
+.head-opinion > * {
+    display: inline-block;
+}
+
+.head-opinion h3 {
+    font-size: 15px;
+    margin: 0;
+}
+
+.head-opinion a {
+    color: #ffffff;
+    text-decoration: underline;
+    float: right;
+    margin-top:1px;
+}
+
+.body-opinion {
+    padding: 7px;
+    font-size: 12px;
+    padding-bottom: 38px;
+}
+
+.question {
+    margin-bottom: 10px;
+}
+
+.body-opinion li {
+    margin-top: 2px;
+    margin-bottom: 5px;
+}
+
+.body-opinion input[type="radio"] {
+    margin-right: 10px;
+}
+
+.body-opinion label + input[type="text"] {
+    display: block;
+    height: 20px;
+    border: 1px solid #666666;
+    width: 97%;
+    padding-left: 7px;
+    margin-top: 5px;
+}
+
+.body-opinion input[type="button"] {
+    padding: 4px 11px;
+    color: #ffffff;
+    text-transform: uppercase;
+    background-color: #d81900;
+    float: right;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+.distr-head > img {
+    float: right;
+	margin-left: 30px;
+	}
+	
+.addit-links {
+	display: inline-block;
+	clear: both;
+	width: 100%;
+	margin-bottom: 10px;
+	}
+	
+.addit-links ul {
+	display: inline-block;
+	list-style: none;
+	}
+	
+.addit-links ul li {
+	float: left;
+	margin-right: 50px;
+	}
+	
+.addit-links ul li:last-child {
+	margin-right: 0;
+	}
+	
+.addit-links ul li a {
+	text-decoration: underline;
+	color: #043f5d;
+	font-size: 14px;
+	}
+	
+.addit-links ul li a img {
+	float: left;
+	margin-right: 10px;
+	}
+
+.paragraph {
+	margin-top: 30px;
+	}
+	
+.paragraph h3 {
+	border-top: 2px solid #043f5d;
+	border-bottom: 1px solid #043f5d;
+	padding: 5px 20px;
+	margin-left: -20px;
+	}
+	
+.list-photo {
+	height: 256px !important;
+	}

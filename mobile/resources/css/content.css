@@ -1,0 +1,31 @@
+@import "attentions.css" screen;
+@import "events.css" screen;
+@import "datepicker.css" screen;
+@import "news.css" screen;
+@import "asideNews.css" screen;
+@import "newsItem.css" screen;
+@import "documents.css" screen;
+@import "activ.css" screen;
+@import "form.css" screen;
+@import "district-picked.css" screen;
+@import "districts.css" screen;
+@import "district-list.css" screen;
+@import "questions.css" screen;
+@import "gallery.css" screen;
+@import "about.css" screen;
+@import "departments.css" screen;
+
+
+.prezident-section {
+    margin-bottom: 12px;
+}
+.prezident-section img {
+    width: 25%;
+    float: left;
+    margin-right: 14px;
+}
+
+.prezident-section p {
+    font-size: 15px;
+    color: #333333;
+}
