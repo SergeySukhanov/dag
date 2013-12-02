@@ -1,6 +1,6 @@
 .events-head{
     border-bottom:1px solid #2d5f78;
-    padding-left: 20px;
+    padding-left: 10px;
 }
 
 .events-head h3 {
@@ -13,7 +13,8 @@
     vertical-align: top;
     color: #cccccc;
     margin-top: 9px;
-    margin-right: 13px;
+    margin-right: 10px;
+	font-size: 14px;
 }
 .events-head a:hover {
 	text-decoration: underline;
@@ -21,14 +22,11 @@
 }
 
 .left-side {
-    width: 663px;
     display: inline-block;
 }
 .left-side.inner-page-left {
-    width: 688px;
 }
 .right-side {
-    width: 273px;
     display: inline-block;
     vertical-align: top;
     margin-left: 26px;
@@ -50,8 +48,9 @@
     width: 410px;
 }
 .list-events {
-    width: 190px;
-    margin-top: 20px;
+    margin-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
 .event-details img {
@@ -73,10 +72,14 @@
 }
 
 .list-events li {
-    font-size: 11px;
+    font-size: 13px;
     margin-bottom: 10px;
-    border-bottom: 1px solid #555555;
+    border-bottom: 1px solid #aaaaaa;
     padding-bottom: 10px;
+}
+.list-events li a {
+	font-size: 13px;
+	color: #111111;
 }
 
 .gallery .row > div {
@@ -92,7 +95,7 @@
 
 .pnl-head{
     margin-top: 10px;
-	padding:7px 0 7px 20px;
+	padding:7px 0 7px 10px;
     border-top:2px solid #2d5f78;
     border-bottom:1px solid #2d5f78;
 }
@@ -106,6 +109,8 @@
     float: right;
     margin-top:3px;
     color: #ccc;
+    margin-right: 10px;
+	font-size: 14px;
 }
 .pnl-head a:hover {
 	text-decoration: underline;

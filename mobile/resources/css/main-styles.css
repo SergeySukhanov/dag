@@ -28,7 +28,6 @@ ul{
 
 h3{
     font-family: Tahoma, sans-serif;
-    text-transform: uppercase;
     font-weight: 200;
     margin-bottom: 10px;
 }
@@ -50,7 +49,7 @@ a{
 }
 
 .content{
-
+	padding-bottom: 20px;
 }
 
 .main-content, .aside {
@@ -65,10 +64,10 @@ a{
     background:url('../images/aside-bg.png') repeat-x;
 }
 .footer {
-    height: 100px;
     background-color: #f1f1f1;
-    width: 980px;
-    margin: 0 auto;
+    width: 100%;
+    margin: 0;
+	padding-bottom: 10px;
 }
 
 .active {
