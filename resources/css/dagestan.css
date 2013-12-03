@@ -20,6 +20,9 @@ table.nc-header {
 	padding: 2px 0;
 	background: #F3F3F3;
 }
+table.nc-header td {
+	height: 23px;
+}
 table.nc-body td {
 	border: 1px solid #F4F4F4;
 }
