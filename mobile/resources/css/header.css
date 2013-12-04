@@ -205,7 +205,7 @@
     z-index: 1000;
 }
 
-.menu li {
+.menu > li {
     display: block;
     list-style-type: none;
     position: relative;
@@ -275,6 +275,19 @@
     position: absolute;
     bottom: 0;
     right: 43%;
+}
+
+.submenu li a {
+    color: #444444;
+    background: none;
+    font-weight: normal;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.submenu li {
+    border-top: 1px solid #AAAAAA;
+    border-bottom: 0 none;
 }
 
 

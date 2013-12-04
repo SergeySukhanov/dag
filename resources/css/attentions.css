@@ -62,12 +62,13 @@
 }
 
 
-.static-tabs p {
+.static-tabs p a{
     font-size: 12px;
     color: #111111;
     font-weight: 400;
     padding-right: 35px;
     padding-left: 5px;
+    text-align: left;
 }
 
 .static-tabs span {
@@ -84,7 +85,8 @@
     text-align: right;
     color: #cccccc;
 }
-.static-tabs a:hover {
+.static-tabs a:hover,
+.list-events li a:hover{
 	text-decoration: underline;
 	color: #043f5d;
 }

@@ -2,22 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23b5971-6fdc-4f50-be47-85795355a689" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/js/modules/tabsController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/resources/css/attentions.css" afterPath="$PROJECT_DIR$/mobile/resources/css/attentions.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/attentions.css" afterPath="$PROJECT_DIR$/resources/css/attentions.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/events.css" afterPath="$PROJECT_DIR$/resources/css/events.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/resources/css/header.css" afterPath="$PROJECT_DIR$/mobile/resources/css/header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/index.html" afterPath="$PROJECT_DIR$/mobile/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/js/starter.js" afterPath="$PROJECT_DIR$/mobile/js/starter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="dag.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="c23b5971-6fdc-4f50-be47-85795355a689" time="1386069089571" ignored="false" />
     <file path="/menuController.js" changelist="c23b5971-6fdc-4f50-be47-85795355a689" time="1386141265807" ignored="false" />
     <file path="/RD.js" changelist="c23b5971-6fdc-4f50-be47-85795355a689" time="1386069515124" ignored="false" />
-    <file path="/index.html" changelist="c23b5971-6fdc-4f50-be47-85795355a689" time="1386145708639" ignored="false" />
-    <file path="/attentions.css" changelist="c23b5971-6fdc-4f50-be47-85795355a689" time="1386142252901" ignored="false" />
+    <file path="/index.html" changelist="c23b5971-6fdc-4f50-be47-85795355a689" time="1386156459991" ignored="false" />
+    <file path="/attentions.css" changelist="c23b5971-6fdc-4f50-be47-85795355a689" time="1386156760621" ignored="false" />
     <file path="/tabsController.js" changelist="c23b5971-6fdc-4f50-be47-85795355a689" time="1386145674708" ignored="false" />
     <file path="/starter.js" changelist="c23b5971-6fdc-4f50-be47-85795355a689" time="1386145749472" ignored="false" />
+    <file path="/events.css" changelist="c23b5971-6fdc-4f50-be47-85795355a689" time="1386156646322" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,70 +37,28 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/index.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="45" selection-start="467" selection-end="467" vertical-scroll-proportion="-7.1923075">
+            <state line="173" column="44" selection-start="8278" selection-end="8278" vertical-scroll-proportion="-22.23077">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menuController.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/js/modules/menuController.js">
+      <file leaf-file-name="events.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/css/events.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="164" selection-end="1190" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#161#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tabsController.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/mobile/js/modules/tabsController.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="27" selection-start="781" selection-end="781" vertical-scroll-proportion="0.5920398">
-              <folding>
-                <element signature="e#0#161#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="attentions.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/resources/css/attentions.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="34" column="4" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
+            <state line="80" column="0" selection-start="1251" selection-end="1268" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="header.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/resources/css/header.css">
+      <file leaf-file-name="attentions.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/resources/css/attentions.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="204" column="18" selection-start="2904" selection-end="2904" vertical-scroll-proportion="0.0">
+            <state line="88" column="23" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.72512436">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="starter.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/js/starter.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="25" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RD.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/mobile/js/modules/RD.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="4" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#161#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -127,16 +84,19 @@
         <option value="$PROJECT_DIR$/mobile/js/modules/RD.js" />
         <option value="$PROJECT_DIR$/mobile/js/modules/menuController.js" />
         <option value="$PROJECT_DIR$/mobile/resources/css/attentions.css" />
-        <option value="$PROJECT_DIR$/mobile/resources/css/header.css" />
         <option value="$PROJECT_DIR$/mobile/index.html" />
         <option value="$PROJECT_DIR$/mobile/js/starter.js" />
         <option value="$PROJECT_DIR$/mobile/js/modules/tabsController.js" />
+        <option value="$PROJECT_DIR$/mobile/resources/css/header.css" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/resources/css/events.css" />
+        <option value="$PROJECT_DIR$/resources/css/attentions.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1981" />
-    <option name="y" value="30" />
+    <option name="x" value="1931" />
+    <option name="y" value="35" />
     <option name="width" value="1403" />
     <option name="height" value="985" />
   </component>
@@ -194,24 +154,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dag" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dag" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -223,10 +165,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dag" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -235,46 +173,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dag" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dag" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dag" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dag" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="modules" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -306,6 +204,13 @@
       <option name="testName" />
       <method />
     </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -318,7 +223,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1981" y="30" width="1403" height="985" extended-state="0" />
+    <frame x="1931" y="35" width="1403" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -402,21 +307,14 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/mobile/resources/css/attentions.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="4" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/resources/css/header.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="204" column="18" selection-start="2904" selection-end="2904" vertical-scroll-proportion="0.0">
+        <state line="34" column="4" selection-start="618" selection-end="618" vertical-scroll-proportion="0.52860695">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/js/modules/RD.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="4" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
+        <state line="8" column="4" selection-start="167" selection-end="167" vertical-scroll-proportion="0.042288557">
           <folding>
             <element signature="e#0#161#0" expanded="false" />
           </folding>
@@ -425,33 +323,61 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/js/modules/menuController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="164" selection-end="1190" vertical-scroll-proportion="0.0">
+        <state line="9" column="0" selection-start="164" selection-end="1190" vertical-scroll-proportion="0.063432835">
           <folding>
             <element signature="e#0#161#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="45" selection-start="467" selection-end="467" vertical-scroll-proportion="-7.1923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mobile/js/starter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="25" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
+        <state line="18" column="25" selection-start="422" selection-end="422" vertical-scroll-proportion="0.38059703">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/js/modules/tabsController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="27" selection-start="781" selection-end="781" vertical-scroll-proportion="0.5920398">
+        <state line="42" column="40" selection-start="889" selection-end="889" vertical-scroll-proportion="0.76119405">
           <folding>
             <element signature="e#0#161#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/resources/css/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="269" column="39" selection-start="3963" selection-end="3963" vertical-scroll-proportion="1.4863183">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="45" selection-start="467" selection-end="467" vertical-scroll-proportion="-1.7917738">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="173" column="44" selection-start="8278" selection-end="8278" vertical-scroll-proportion="-22.23077">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/events.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="80" column="0" selection-start="1251" selection-end="1268" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/attentions.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="88" column="23" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.72512436">
+          <folding />
         </state>
       </provider>
     </entry>
