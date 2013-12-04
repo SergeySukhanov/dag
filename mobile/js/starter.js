@@ -12,6 +12,7 @@ $(document).ready(function(){
    $('.datepicker').datepicker();
 	
 	Tools.toggleFilter('.toggle-title');
-	new TimerTabsCtrl(opt);
+//	new TimerTabsCtrl(opt);
     new SimpleGallery(opt);
+    RD.MenuController.init();
 });

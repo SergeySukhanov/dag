@@ -217,10 +217,12 @@
 	margin-right: 5px;
     cursor: pointer;
     font-size: 14px;
-    font-weight: 600;
     text-decoration: none;
     display: block;
-	background: url(../images/down.png) no-repeat right center;
+}
+.menu > li > a{
+    background: url(../images/down.png) no-repeat right center;
+    font-weight: 600;
 }
 .menu li.active a {
 	background: url(../images/top.png) no-repeat right center;
