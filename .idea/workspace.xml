@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23b5971-6fdc-4f50-be47-85795355a689" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/attentions.css" afterPath="$PROJECT_DIR$/resources/css/attentions.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/css/events.css" afterPath="$PROJECT_DIR$/resources/css/events.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/resources/css/header.css" afterPath="$PROJECT_DIR$/mobile/resources/css/header.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MOVED" beforePath="C:\Users\SNSukhanov\Documents\GitHub\dag\gallery.html" afterPath="$PROJECT_DIR$/galleryAlbum.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dag.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -17,6 +15,8 @@
     <file path="/tabsController.js" changelist="c23b5971-6fdc-4f50-be47-85795355a689" time="1386145674708" ignored="false" />
     <file path="/starter.js" changelist="c23b5971-6fdc-4f50-be47-85795355a689" time="1386145749472" ignored="false" />
     <file path="/events.css" changelist="c23b5971-6fdc-4f50-be47-85795355a689" time="1386156646322" ignored="false" />
+    <file path="/gallery.html" changelist="c23b5971-6fdc-4f50-be47-85795355a689" time="1386170478045" ignored="false" />
+    <file path="/gallery.css" changelist="c23b5971-6fdc-4f50-be47-85795355a689" time="1386169307086" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,7 +39,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="173" column="44" selection-start="8278" selection-end="8278" vertical-scroll-proportion="-22.23077">
+            <state line="173" column="44" selection-start="8278" selection-end="8278" vertical-scroll-proportion="-24.192308">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="newsItem.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/newsItem.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="252" column="0" selection-start="12795" selection-end="14200" vertical-scroll-proportion="-18.961538">
               <folding />
             </state>
           </provider>
@@ -48,16 +57,45 @@
       <file leaf-file-name="events.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/css/events.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="0" selection-start="1251" selection-end="1268" vertical-scroll-proportion="0.0">
+            <state line="83" column="0" selection-start="1305" selection-end="1322" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1386160667354" expanded="true" signature="1196:1304" placeholder="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attentions.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/css/attentions.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="88" column="23" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="attentions.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/css/attentions.css">
+      <file leaf-file-name="gallery.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/modules/gallery.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="88" column="23" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.72512436">
+            <state line="13" column="37" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="galleryAlbum.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/galleryAlbum.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="108" column="67" selection-start="4610" selection-end="4610" vertical-scroll-proportion="0.45894262">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gallery.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/css/gallery.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="25" column="24" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -91,14 +129,16 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/resources/css/events.css" />
         <option value="$PROJECT_DIR$/resources/css/attentions.css" />
+        <option value="$PROJECT_DIR$/resources/css/gallery.css" />
+        <option value="$PROJECT_DIR$/gallery.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1931" />
-    <option name="y" value="35" />
-    <option name="width" value="1403" />
-    <option name="height" value="985" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -176,6 +216,38 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dag" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dag" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dag" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dag" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="modules" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -183,6 +255,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="PublishConfig" serverName="daga" serverId="a612afe9-ab9d-47e7-b487-fb7d76546f84">
     <servers>
@@ -223,13 +296,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1931" y="35" width="1403" height="985" extended-state="0" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1744868" sideWeight="0.6702509" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12546125" sideWeight="0.6702509" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -360,23 +433,53 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/resources/css/events.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="173" column="44" selection-start="8278" selection-end="8278" vertical-scroll-proportion="-22.23077">
-          <folding />
+        <state line="83" column="0" selection-start="1305" selection-end="1322" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1386160667354" expanded="true" signature="1196:1304" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/css/events.css">
+    <entry file="file://$PROJECT_DIR$/js/modules/gallery.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="80" column="0" selection-start="1251" selection-end="1268" vertical-scroll-proportion="0.0">
+        <state line="13" column="37" selection-start="328" selection-end="328" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/css/attentions.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="88" column="23" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.72512436">
+        <state line="88" column="23" selection-start="1429" selection-end="1429" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/css/gallery.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="24" selection-start="390" selection-end="390" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="173" column="44" selection-start="8278" selection-end="8278" vertical-scroll-proportion="-24.192308">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newsItem.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="252" column="0" selection-start="12795" selection-end="14200" vertical-scroll-proportion="-18.961538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/galleryAlbum.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="67" selection-start="4610" selection-end="4610" vertical-scroll-proportion="0.45894262">
           <folding />
         </state>
       </provider>

@@ -5,10 +5,27 @@ body{
 .gallery{
     margin-bottom:1.5em;
 }
+
+.gallery-page .current-photo,
+.gallery-page .list-photo{
+    display: block;
+    vertical-align: top;
+}
 .current-photo,
 .list-photo{
     display:inline-block;
     vertical-align:top;
+}
+
+.gallery-page .current-photo{
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.gallery-page .list-photo{
+    height: auto !important;
+    overflow: visible;
+    width:100%;
 }
 .current-photo{
     position:relative;
@@ -27,12 +44,19 @@ body{
 .list-photo ul{
     margin-left:-3%;
 }
+
 .list-photo li{
    display:inline-block;
    margin:0 0 3% .5em;
    width:44%;
 
 }
+.gallery-page .list-photo li{
+    display: inline-block;
+    margin: 0 6px 1% 0px;
+    width: 23%;
+}
+
 .list-photo li:hover{
     cursor:pointer;
 }
