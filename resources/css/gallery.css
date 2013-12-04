@@ -36,7 +36,8 @@ body{
 .list-photo li:hover{
     cursor:pointer;
 }
-.gallery .show-modal{
+.gallery .show-modal,
+.gallery-section .show-modal{
     position:absolute;
     top:0;
     right:0;
@@ -80,4 +81,34 @@ body{
 	text-indent: 9999px;
 	overflow: hidden;
 	background: url(../images/min.png) no-repeat 0 0;
+}
+
+.gallery-section .current-photo {
+	width: 100%;
+	display: block;
+	position:relative;
+}
+.gallery-section .gallery-list-photo {
+	height: auto;
+	overflow: hidden;
+	margin-left: 0;
+	width: 100%;
+}
+.gallery-list-photo {
+    height:300px;
+    overflow-y:scroll;
+    margin-left:3%;
+    width:36%;
+}
+.gallery-list-photo ul{
+    margin-left:-3%;
+}
+.gallery-list-photo li{
+   display:inline-block;
+   margin:0 0 3% .5em;
+   width:44%;
+
+}
+.gallery-list-photo li:hover{
+    cursor:pointer;
 }
