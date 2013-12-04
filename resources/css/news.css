@@ -38,8 +38,8 @@
 .left-side .main-content{
     width:auto;
 }
-.news-item {
-    min-height: 135px;
+.news-item { 
+	padding-bottom: 40px;
 }
 
 .news-item h4 {
@@ -50,18 +50,15 @@
     width: 20%;
     float: left;
     margin-right: 15px;
+	margin-top: 3px;
 }
 
 .news-item p {
     color: #666666;
-    min-height: 80px;
+	padding-bottom: 3px;
 }
 
-.news-item div {
-    clear: both;
-    position: relative;
-    margin-left: 22%;
-    top: -15px;
+.news-item div { 
 }
 
 .news-item div > span {
@@ -131,4 +128,3 @@
 .next {
     background-position: 0 -12px;
 }
-
