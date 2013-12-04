@@ -2,24 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c23b5971-6fdc-4f50-be47-85795355a689" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dag.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/js/modules/RD.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/js/modules/menuController.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mobile/js/modules/tabsController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/resources/css/attentions.css" afterPath="$PROJECT_DIR$/mobile/resources/css/attentions.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/resources/css/header.css" afterPath="$PROJECT_DIR$/mobile/resources/css/header.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/index.html" afterPath="$PROJECT_DIR$/mobile/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mobile/js/starter.js" afterPath="$PROJECT_DIR$/mobile/js/starter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="dag.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/Dummy.txt" changelist="c23b5971-6fdc-4f50-be47-85795355a689" time="1386069089571" ignored="false" />
     <file path="/menuController.js" changelist="c23b5971-6fdc-4f50-be47-85795355a689" time="1386141265807" ignored="false" />
     <file path="/RD.js" changelist="c23b5971-6fdc-4f50-be47-85795355a689" time="1386069515124" ignored="false" />
-    <file path="/index.html" changelist="c23b5971-6fdc-4f50-be47-85795355a689" time="1386139917598" ignored="false" />
+    <file path="/index.html" changelist="c23b5971-6fdc-4f50-be47-85795355a689" time="1386145708639" ignored="false" />
+    <file path="/attentions.css" changelist="c23b5971-6fdc-4f50-be47-85795355a689" time="1386142252901" ignored="false" />
+    <file path="/tabsController.js" changelist="c23b5971-6fdc-4f50-be47-85795355a689" time="1386145674708" ignored="false" />
+    <file path="/starter.js" changelist="c23b5971-6fdc-4f50-be47-85795355a689" time="1386145749472" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,16 +40,16 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="52" selection-start="1966" selection-end="1966" vertical-scroll-proportion="-16.346153">
+            <state line="11" column="45" selection-start="467" selection-end="467" vertical-scroll-proportion="-7.1923075">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="menuController.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="menuController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile/js/modules/menuController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="45" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.619403">
+            <state line="9" column="0" selection-start="164" selection-end="1190" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#161#0" expanded="false" />
               </folding>
@@ -59,10 +57,30 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="tabsController.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobile/js/modules/tabsController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="27" selection-start="781" selection-end="781" vertical-scroll-proportion="0.5920398">
+              <folding>
+                <element signature="e#0#161#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attentions.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/resources/css/attentions.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="4" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="header.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile/resources/css/header.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="218" column="20" selection-start="3137" selection-end="3137" vertical-scroll-proportion="0.0">
+            <state line="204" column="18" selection-start="2904" selection-end="2904" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -71,7 +89,7 @@
       <file leaf-file-name="starter.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mobile/js/starter.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="71" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
+            <state line="18" column="25" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,17 +125,19 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/mobile/js/modules/RD.js" />
-        <option value="$PROJECT_DIR$/mobile/js/starter.js" />
-        <option value="$PROJECT_DIR$/mobile/index.html" />
         <option value="$PROJECT_DIR$/mobile/js/modules/menuController.js" />
+        <option value="$PROJECT_DIR$/mobile/resources/css/attentions.css" />
         <option value="$PROJECT_DIR$/mobile/resources/css/header.css" />
+        <option value="$PROJECT_DIR$/mobile/index.html" />
+        <option value="$PROJECT_DIR$/mobile/js/starter.js" />
+        <option value="$PROJECT_DIR$/mobile/js/modules/tabsController.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="847" />
-    <option name="y" value="83" />
-    <option name="width" value="1074" />
+    <option name="x" value="1981" />
+    <option name="y" value="30" />
+    <option name="width" value="1403" />
     <option name="height" value="985" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -298,13 +318,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="847" y="83" width="1074" height="985" extended-state="0" />
+    <frame x="1981" y="30" width="1403" height="985" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2299517" sideWeight="0.6702509" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1744868" sideWeight="0.6702509" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
@@ -380,6 +400,20 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mobile/resources/css/attentions.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="4" selection-start="618" selection-end="618" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/resources/css/header.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="204" column="18" selection-start="2904" selection-end="2904" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mobile/js/modules/RD.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="4" selection-start="167" selection-end="167" vertical-scroll-proportion="0.0">
@@ -389,30 +423,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/js/starter.js">
+    <entry file="file://$PROJECT_DIR$/mobile/js/modules/menuController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="71" selection-start="392" selection-end="392" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="9" column="0" selection-start="164" selection-end="1190" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#161#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mobile/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="52" selection-start="1966" selection-end="1966" vertical-scroll-proportion="-16.346153">
+        <state line="11" column="45" selection-start="467" selection-end="467" vertical-scroll-proportion="-7.1923075">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/resources/css/header.css">
+    <entry file="file://$PROJECT_DIR$/mobile/js/starter.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="218" column="20" selection-start="3137" selection-end="3137" vertical-scroll-proportion="0.0">
+        <state line="18" column="25" selection-start="422" selection-end="422" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mobile/js/modules/menuController.js">
+    <entry file="file://$PROJECT_DIR$/mobile/js/modules/tabsController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="45" selection-start="1055" selection-end="1055" vertical-scroll-proportion="0.619403">
+        <state line="34" column="27" selection-start="781" selection-end="781" vertical-scroll-proportion="0.5920398">
           <folding>
             <element signature="e#0#161#0" expanded="false" />
           </folding>

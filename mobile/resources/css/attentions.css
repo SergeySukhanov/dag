@@ -32,7 +32,7 @@
 	overflow: hidden;
 }
 .static-tabs li.active {
-	font-size: 18px;
+
 }
 .static-tabs li {
     display: inline-block;
@@ -42,6 +42,7 @@
 	line-height: 38px;
 	color: #fff;
 	background: #666666;
+    margin-right: 5px;
 }
 
 .current-item {

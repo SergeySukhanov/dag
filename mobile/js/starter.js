@@ -15,4 +15,5 @@ $(document).ready(function(){
 //	new TimerTabsCtrl(opt);
     new SimpleGallery(opt);
     RD.MenuController.init();
+    RD.TabsController.init();
 });
