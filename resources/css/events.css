@@ -14,6 +14,7 @@
     color: #cccccc;
     margin-top: 9px;
     margin-right: 13px;
+	font-size: 0.8em;
 }
 .events-head a:hover {
 	text-decoration: underline;
@@ -61,7 +62,7 @@
 }
 
 .event-details h5 {
-    font-size: 17px;
+    font-size: 1em;
     font-weight: 200;
     text-transform: uppercase;
     margin-bottom: 10px;
@@ -69,11 +70,10 @@
 
 .event-details p {
     font-family: Tahoma,sans-serif;
-    font-size: 13px;
+    font-size: 0.8em;
 }
 
 .list-events li {
-    font-size: 12px;
 	line-height: 14px;
     margin-bottom: 13px;
     border-bottom: 1px solid #c2c2c2;
@@ -83,6 +83,7 @@
 }
 .list-events li a{
     color: #333333;
+	font-size: 0.8em
 }
 
 .gallery .row > div {
@@ -112,6 +113,7 @@
     float: right;
     margin-top:3px;
     color: #ccc;
+	font-size: 0.8em;
 }
 .pnl-head a:hover {
 	text-decoration: underline;

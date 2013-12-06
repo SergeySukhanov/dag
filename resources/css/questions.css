@@ -21,11 +21,12 @@
 .question-item p, .question-answer-item p {	
 	color: rgb(102, 102, 102);
 	margin-bottom: 5px;
+	font-size: 0.9em;
 	}
 
 .question-item span, .question-answer-item span {	
 	color: rgb(153, 153, 153);
-	font-size: 14px;
+	font-size: 0.9em;
 	}
 	
 .theme-dest {
@@ -45,6 +46,7 @@
 .full-page a {
 	text-decoration: underline;
 	color: rgb(4, 63, 93);
+	font-size: 0.9em;
 	}
 	
 .line {

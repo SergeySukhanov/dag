@@ -22,7 +22,7 @@
 }
 .list-item li,
 .static-tabs li{
-    font-size: 13px;
+    font-size: 0.8em;
     cursor: pointer;
     text-transform: uppercase;
     color: #ffffff;
@@ -63,7 +63,7 @@
 
 
 .static-tabs p a{
-    font-size: 12px;
+    font-size: 0.8em;
     color: #111111;
     font-weight: 400;
     padding-right: 35px;
@@ -73,7 +73,7 @@
 
 .static-tabs span {
     color: #cccccc;
-    font-size: 12px;
+    font-size: 0.8em;
     padding-left: 5px;
     margin-top: 5px;
     display: inline-block;
@@ -84,6 +84,7 @@
     display: block;
     text-align: right;
     color: #cccccc;
+	font-size: 0.8em
 }
 .static-tabs a:hover,
 .list-events li a:hover{

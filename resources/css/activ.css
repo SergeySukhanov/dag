@@ -19,7 +19,7 @@
 }
 .activ-item h4 {
 	text-transform: uppercase;
-	font-size: 13px;
+	font-size: 0.8em;
 	font-weight: normal;
 	padding: 0px 7px;
 	margin: 0;
@@ -44,15 +44,15 @@
 .activ-item .description {
 	height: 30px;
 	overflow: hidden;
-	font-size: 12px;
-	line-height: 16px;
+	font-size: 0.8em;
+	line-height: 1.1em;
 	color: #000000;
 	padding: 2px 0 0;
 	margin: 0 0 10px;
 }
 .activ-item div > span {
 	color: #999999;
-	font-size: 12px;
+	font-size: 0.8em;
 	line-height: 16px;
 	float: left;
 }
@@ -61,6 +61,7 @@
 	color: #043f5d;
 	text-decoration: underline;
 	line-height: 16px;
+	font-size: 0.8em;
 }
 
 .activ-filters {
@@ -73,8 +74,8 @@
 	background: #595959;
 	color: #ffffff;
 	text-transform: uppercase;
-	font-size: 12px;
-	line-height: 16px;
+	font-size: 0.8em;
+	line-height: 1.3em;
 	padding: 10px 6px;
 	margin-right: 12px;
 	margin-bottom: 10px;
@@ -97,14 +98,14 @@
 	margin-right: 13px;
 }
 .people-item .description {
-	font-size: 14px;
+	font-size: 0.9em;
 	line-height: 18px;
 	padding-bottom: 8px;
 }
 .people-item  div > a {
 	float: right;
 	color: #043f5d;
-	font-size: 14px;
+	font-size: 0.9em;
 	text-decoration: underline;
 }
 .toggle-title { 

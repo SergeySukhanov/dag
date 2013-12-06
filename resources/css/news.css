@@ -1,7 +1,7 @@
 .bread-crumbs {
     height: 30px;
     color: #666666;
-    font-size: 14px;
+    font-size: 0.9em;
     padding-top: 15px;
     margin:0 0 10px 20px;
 }
@@ -16,7 +16,6 @@
     margin-right: 5px;
 }
 .bread-crumbs a {
-    font-size: 11px;
     text-decoration: none;
     color: #043f5d;
     margin-left: 5px;
@@ -27,7 +26,7 @@
     color: #666666 !important;
     text-decoration: none;
     margin-right: 10px !important;
-    font-size: 14px !important;
+    font-size: 0.9em !important;
 }
 
 .main-content {
@@ -43,7 +42,7 @@
 }
 
 .news-item h4 {
-    font-size: 17px;
+    font-size: 1em;
 }
 
 .news-item img {
@@ -56,6 +55,7 @@
 .news-item p {
     color: #666666;
 	padding-bottom: 3px;
+	font-size: 0.9em;
 }
 
 .news-item div { 
@@ -63,7 +63,7 @@
 
 .news-item div > span {
     color: #999999;
-    font-size: 14px;
+    font-size: 0.9em;
 }
 
 .news-item .date {
@@ -74,6 +74,7 @@
     float: right;
     color: #043f5d;
     text-decoration: underline;
+	font-size: 0.9em;
 }
 
 .pagination {
@@ -104,6 +105,7 @@
     display: block;
     padding-left: 11px;
     margin-top: 5px;
+	font-size: 0.8em;
 }
 
 .pagination .active a{

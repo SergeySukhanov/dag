@@ -11,7 +11,7 @@
 .news-details-content p {
     margin-bottom: 15px;
     color: #666666;
-    font-size: 14px;
+    font-size: 0.9em;
 }
 
 .news-details-content > span {
@@ -20,7 +20,7 @@
 
 .date {
     color: #999999;
-    font-size: 12px;
+    font-size: 0.8em;
 }
 
 .head-comments {
@@ -37,6 +37,7 @@
 .head-comments a {
     color: #043f5d;
     text-decoration: underline;
+	font-size: 0.9em;
 }
 .head-comments .share {
 	margin-left: 20px;
@@ -49,7 +50,7 @@
     display: inline-block;
     margin-top: 15px;
     margin-bottom: 10px;
-    font-size: 15px;
+    font-size: 0.95em;
     font-weight: 200;
     color: #333333;
 }
@@ -61,13 +62,14 @@
 
 .comments-item p {
     color: #666666;
-    font-size: 14px;
+    font-size: 0.9em;
 }
 
 .comments-item a {
     float: right;
     color: #043f5d;
     text-decoration: underline;
+	font-size: 0.9em;
 }
 
 .comments-item .sub-comments-item {
@@ -90,7 +92,7 @@
 }
 
 .head-opinion h3 {
-    font-size: 15px;
+    font-size: 0.95em;
     margin: 0;
 }
 
@@ -99,11 +101,12 @@
     text-decoration: underline;
     float: right;
     margin-top:1px;
+	font-size: 0.8em;
 }
 
 .body-opinion {
     padding: 7px;
-    font-size: 12px;
+    font-size: 0.8em;
     padding-bottom: 38px;
 }
 

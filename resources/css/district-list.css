@@ -33,7 +33,7 @@
 }
 .alpha-item a {
 	color: #4057c5;
-	font-size: 12px;
+	font-size: 0.8em;
 }
 .alpha-item a:hover {
 	text-decoration: underline;

@@ -32,7 +32,7 @@
 }
 .row label, .col span {
 	vertical-align: middle; 
-	font-size: 14px;
+	font-size: 0.9em;
 }
 .col input[type="checkbox"] {
 	vertical-align: middle; 
@@ -117,7 +117,7 @@ select {
     display:block;
     margin:-8px 0 15px;
     text-transform:lowercase;
-    font-size:12px;
+    font-size:0.8em;
     color:#636363;
 
 }
