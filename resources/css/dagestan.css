@@ -6,8 +6,9 @@
  */
 
 div.newscalendar {
-	max-width: 250px;
+	max-width: 273px;
 	overflow: visible;
+	margin-top: 15px;
 }
 table.nc-header, table.nc-body {
 	border: 1px;

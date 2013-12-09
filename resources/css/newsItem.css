@@ -141,7 +141,12 @@
     margin-top: 5px;
     cursor: pointer;
 }
-
+.poll_links {
+	padding: 5px 10px 10px;
+}
+.poll_result_link {
+	font-size: 0.8em;
+}
 
 
 

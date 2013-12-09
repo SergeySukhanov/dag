@@ -34,6 +34,11 @@
 	height: 43px;
 	overflow: hidden;
 }
+.list-item li {
+	height: 43px;
+    overflow: hidden;
+    padding: 10px 35px 12px 20px;
+}
 .static-tabs li {
     display: inline-block;
     padding: 9px 12px;
@@ -69,6 +74,9 @@
     padding-right: 35px;
     padding-left: 5px;
     text-align: left;
+	display: block;
+	height: 33px;
+    overflow: hidden;
 }
 
 .static-tabs span {

@@ -78,12 +78,13 @@
     margin-bottom: 13px;
     border-bottom: 1px solid #c2c2c2;
     padding-bottom: 13px;
-	height: 44px;
-	overflow: hidden;
 }
 .list-events li a{
     color: #333333;
-	font-size: 0.8em
+	font-size: 0.8em;
+	display: block;
+	height: 44px;
+    overflow: hidden;
 }
 
 .gallery .row > div {
@@ -119,7 +120,7 @@
 	text-decoration: underline;
 	color: #043f5d;
 }
-.list-link {
+.list-link, .bannergrouplist-link {
     margin-top: 32px;
 }
 
