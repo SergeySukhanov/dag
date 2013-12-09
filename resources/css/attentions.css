@@ -34,11 +34,12 @@
 	height: 43px;
 	overflow: hidden;
 }
-.list-item li {
-	height: 43px;
+.list-item li span {
+	display: block;
+    height: 48px;
     overflow: hidden;
-    padding: 10px 35px 12px 20px;
 }
+
 .static-tabs li {
     display: inline-block;
     padding: 9px 12px;

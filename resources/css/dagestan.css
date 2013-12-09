@@ -87,22 +87,22 @@ table.nc-body .dayname {
 }
 
 .newscalendar ul.nc-items {
-	background: url(../assets/opacity.png) repeat;
+	background: #fff;
 	position: absolute;
 	left: auto!important;
 	right: auto!important;
 	top: auto!important;
 	bottom: 15px!important;
-	font-size: 0.8em;
+	font-size: 1em;
 	line-height: 1.1em;
 	margin: 0!important;
 	padding: 5px 10px;
 	width: 180px;
 	list-style: none;
-	border: 1px solid #000;
+	border: 1px solid #ccc;
 	text-align: left;
 	z-index: 100;
-	box-shadow: 0 0 8px #333;
+	box-shadow: 0 0 8px #ссс;
 	border-radius: 5px;
 	display: none;
 }
@@ -124,10 +124,10 @@ span.nc-day ul.nc-items li  {
 span.nc-day ul.nc-items li a  { 
 	background: none;
 	display: block;
-	color: #FFF;
+	color: #000;
 }
 span.nc-day ul.nc-items li a:hover  { 
-	color: yellow;
+	color: #043f5d;
 }
 span.nc-day:hover ul.nc-items { 
 	display: block;

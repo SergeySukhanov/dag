@@ -9,9 +9,9 @@
 }
 .pop-up {
 	background: #FFF;
-	padding: 20px;
+	padding: 15px 17px 20px 20px;
 	position: absolute;
-	width: 360px;
+	width: 480px;
 	height: auto;
 	top: 50%; left: 50%;
     -webkit-transform: translate(-50%,-50%);
@@ -28,4 +28,73 @@
 	position:absolute;
 	top: 0;
 	right: 0;
+	z-index: 10;
+}
+.pop-up-title {
+	position:relative;
+    background:#fff;
+    padding: 0 0 10px;
+	color: #086698;
+}
+
+.pop-up-title:before,
+.pop-up-title:after {
+    content:"";
+    position:absolute;
+    z-index:-2;
+}
+ 
+.pop-up-title:before {
+    top:50%;
+    bottom:0px;
+    left:10px;
+    right:10px;
+    -webkit-box-shadow:0 0 15px rgba(0,0,0,0.25);
+       -moz-box-shadow:0 0 15px rgba(0,0,0,0.25);
+            box-shadow:0 0 15px rgba(0,0,0,0.25);
+    -moz-border-radius:150px / 7px;
+         border-radius:150px / 7px;
+}
+.pop-up-ic {
+	background: url(../images/ic-adres.png) no-repeat 0 0;
+	width: 19px;
+	height: 14px;
+	display: inline-block;
+	margin: 0 5px 0 10px;
+}
+.pop-up-content {
+	padding-top: 14px;
+}
+.pop-up-content label {
+	font-size: 0.8em;
+}
+.pop-up-content .special-ver-lbl {
+	font-size: 0.9em;
+}
+.pop-up-content .login-table-fcol {
+	width: 75px;
+}
+.pop-up-content input.fluid-field {
+	width: 287px;
+}
+.pop-up-content .row {
+	padding-bottom: 15px;
+}
+.forgot-link {
+	text-decoration: underline;
+	font-size: 0.8em;
+	color: #043f5d;
+	white-space: nowrap;
+	margin-left:2px;
+}
+.pop-up-content input[type="checkbox"] {
+	vertical-align: middle; 
+}
+.register-link {
+	text-decoration: underline;
+	margin-top: 12px;
+	font-size: 0.9em;
+	clear: both;
+	float: right;
+	color: #043f5d;
 }

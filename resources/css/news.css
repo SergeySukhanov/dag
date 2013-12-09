@@ -39,6 +39,7 @@
 }
 .news-item { 
 	padding-bottom: 40px;
+	overflow: hidden;
 }
 
 .news-item h4 {
@@ -93,18 +94,18 @@
     background-color: #ffffff !important;
 }
 
-.pagination a {
+.pagination ul a {
     color: #ffffff;
     padding: 3px 16px;
     background-color: #043f5d;
 }
-.pagination > a {
+.pagination > a.load-all {
     text-decoration: underline;
     background-color: transparent;
     color: #043f5d;
     display: block;
     padding-left: 11px;
-    margin-top: 5px;
+    margin-top: 10px;
 	font-size: 0.8em;
 }
 

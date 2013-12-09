@@ -143,6 +143,12 @@ select {
 .form-icons.ic-type {
 	background-image: url(../images/ic-type.png);
 }
+.form-icons.ic-setting {
+	background-image: url(../images/ic-setting.png);
+	width: 19px;
+	height: 18px;
+	margin-left: -3px;
+}
 .form-icons.ic-adres {
 	background-image: url(../images/ic-adres.png);
 	width: 19px; 
