@@ -21,7 +21,7 @@
 .col .row{
     margin-bottom:16px;
 }
-.row input[type="text"] {
+.row input[type="text"], .pop-up input[type="text"] {
     padding-left: 5px;
 	height: 17px;
 	box-shadow: 0 1px 2px #999999 inset;
@@ -161,6 +161,10 @@ select {
 	margin-right: 6px;
 	vertical-align: middle;
 }
+.form-icons.ic-map {
+	background-image: url(../images/ic-map.png);
+	width: 18px; 
+}
 .submit-request .row {
 	background: url(../images/shadow-form.png) no-repeat center top;
 	padding-bottom: 8px;
@@ -175,4 +179,23 @@ select {
 	padding-top: 0;
 	padding-bottom: 20px;
 	overflow: hidden;
+}
+
+.pop-up input[type="text"] {
+	margin-bottom: 5px;
+}
+.pop-up .fluid-field.small-field {
+	width: 132px;
+	margin-right: 13px;
+}
+.pop-up .fluid-field.small-field:last-child {
+	margin-right:0;
+}
+.pop-up .fluid-field {
+	color: #575756;
+}
+.form-separate {
+	background: url(../images/shadow-form-short.png) no-repeat center 0;
+	height: 10px;
+	margin: -5px 0 5px;
 }

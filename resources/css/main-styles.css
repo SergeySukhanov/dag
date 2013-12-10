@@ -86,3 +86,13 @@ a{
     clear: both;
     visibility: hidden;
 }
+.clear {
+	display: block;
+	font-size:0;
+	line-height:0;
+	margin:0;
+	padding:0;
+	width:0;
+	height:0;
+	clear:both;
+}

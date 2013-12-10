@@ -6,7 +6,7 @@
 	float: left;
 	margin: 2px 13px 2px 0;
 }
-.about-section .pnl-head {
+.about-section .pnl-head, .prezident-section .pnl{
 	margin-left: -20px;
 }
 .about-text p {

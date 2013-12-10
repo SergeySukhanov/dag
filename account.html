@@ -14,30 +14,50 @@
 </head>
 <body>
    <div id="wrapper">
-   		<div class="pop-up-overlay" style="display:none;">
+   		<div class="pop-up-overlay">
         	<div class="pop-up login-pop-up">
         		<a class="pop-up-close" href="#" title="Закрыть">Закрыть</a>
-                <h3 class="pop-up-title">Вход<span class="pop-up-ic"></span></h3>
+                <h3 class="pop-up-title">Личный кабинет<span class="pop-up-ic"></span><span class="user-login">MarcegulI</span></h3>
                 <div class="pop-up-content">
+                	<div class="user-photo-box">
+                    	<span class="user-photo"><img src="resources/images/user-photo-default.png" width="154" height="154" /></span>
+                        <a href="#" class="load-photo">загрузить фото</a>
+                    </div>
                 	<div class="user-form">
+                        <table cellpadding="0" cellspacing="0" class="pop-up-form">
+                        	<tbody>
+                            	<tr>
+                                	<td><label><span class="form-icons ic-fio"></span></label></td>
+                                    <td><input type="text" class="fluid-field" value="Марцегулин">
+                                        <input type="text" class="fluid-field" value="Иван">
+                                        <input type="text" class="fluid-field" value="Иванович"></td>
+                                </tr>
+                                <tr>
+                                	<td><label><span class="form-icons ic-mail"></span></label></td>
+                                    <td><input type="text" class="fluid-field" value="Марцегулин"></td>
+                                </tr>
+                                <tr>
+                                	<td><label><span class="form-icons ic-setting"></span></label></td>
+                                    <td><input type="text" class="fluid-field small-field" value="старый пароль">
+                            <input type="text" class="fluid-field small-field" value="новый пароль"></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <div class="clear"></div>    
                         <div class="row">
-                            <label class="login-table-fcol"><span class="form-icons ic-fio"></span>Логин:</label>
-                            <input type="text" class="fluid-field">
-                            <a href="#" class="forgot-link">Забыли логин?</a>
+                            <input type="checkbox" id="special-version">
+                            <label for="special-version" class="special-ver-lbl">Установить  «Версию для слабовидящих» по умолчанию. </label>
                         </div>
                         <div class="row">
-                            <label class="login-table-fcol"><span class="form-icons ic-setting"></span>Пароль:</label>
-                            <input type="text" class="fluid-field">
-                            <a href="#" class="forgot-link">Забыли пароль?</a>
-                        </div>
-                        <div class="row">
-                        	<label class="login-table-fcol"></label>
-                            <input type="checkbox" id="remember">
-                            <label for="remember">Запомнить меня</label>
+                            <label><span class="form-icons ic-map"></span>Мой район</label>
+                            <select class="fluid-field">
+                                <option>1</option>
+                                <option>2</option>
+                                <option>3</option>
+                            </select>
                         </div>
                         <div class="row right-cont">
-                            <input type="button" value="Войти">
-                            <a href="#" class="register-link">Зарегистрироваться</a>
+                            <input type="button" value="Сохранить">
                         </div>
                     </div><!--/user-form-->
                 </div><!--/pop-up-content-->
