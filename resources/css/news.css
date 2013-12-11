@@ -83,6 +83,7 @@
     margin-bottom: 30px;
     padding-top: 20px;
     border-top: 1px solid #043f5d;
+	clear: both;
 }
 
 .pagination > * {

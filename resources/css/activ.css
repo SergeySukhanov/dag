@@ -79,11 +79,10 @@
 	padding: 10px 6px;
 	margin-right: 12px;
 	margin-bottom: 10px;
+	clear: both;
 }
-.people-item .people-position {
+.people-position.important-position {
 	background: #d81900;
-	font-weight: normal;
-	margin-bottom: 0;
 }
 .people-item {
 	color: #000000;

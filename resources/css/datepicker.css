@@ -46,6 +46,10 @@
     margin-left: -8px;
     top: 50%;
     margin-top: -8px;
+	background: url(../images/arrow-calendar.png) no-repeat 5px 3px;
+}
+.ui-datepicker .ui-datepicker-next span {
+	background-position: right -17px;
 }
 
 .ui-icon {

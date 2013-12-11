@@ -53,3 +53,51 @@
 	margin: 20px 0;
 	border-bottom: 1px solid rgb(4, 63, 93);
 	}
+	
+
+.contact-way {
+	float: left;
+	width: 296px;
+	padding-bottom: 32px;
+	text-align: center;
+	font-size: 0.9em;
+	color: #575756;
+	background: url(../images/shadow-small.png) no-repeat center bottom;
+}
+.contact-way-img {
+	height: 60px;
+	display: block;
+}
+.contact-user-ic {
+	float: left;
+	padding-top:45px;
+	margin: 0 -3px 0 3px;
+}
+.contact-col {
+	float: left;
+	width: 270px;
+}
+.contact-col:nth-child(3) {
+	float: right;
+}
+.contact-infobox {
+	padding-bottom: 25px;
+}
+.contact-infobox p, .contact-subtext p {
+	font-size: 0.85em;
+	line-height: 1.3em;
+	color: #575756;
+}
+.contact-infobox h3 {
+	font-size: 0.9em;
+	margin: 0 0 5px;
+}
+.contact-infobox a {
+	color: #003265;
+	text-decoration: underline;
+}
+.info-separator {
+	clear: both;
+	background: url(../images/shadow-form.png) no-repeat center bottom;
+	height: 30px;
+}
