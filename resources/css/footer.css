@@ -22,5 +22,9 @@
     list-style-type: none;
     font-size: 0.9em;
     font-weight: 200;
+	line-height: 1.7em;
+}
+.footer > ul > li li a {
+    color: #555555;
 }
 

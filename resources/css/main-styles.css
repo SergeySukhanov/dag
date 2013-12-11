@@ -65,7 +65,7 @@ a{
     background:url('../images/aside-bg.png') repeat-x;
 }
 .footer {
-    height: 100px;
+    padding-bottom: 20px;
     background-color: #f1f1f1;
     width: 980px;
     margin: 0 auto;
