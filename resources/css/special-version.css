@@ -1,0 +1,84 @@
+.version-panel {
+	background: #fff;
+	padding: 10px 20px 18px;
+	font-size: 15px;
+	overflow: hidden;
+}
+.ver-setting {
+	display: inline-block;
+	margin-right: 30px;
+}
+.text-sett {
+	display: inline-block;
+	padding: 0 5px;
+	cursor: pointer;
+}
+.small-txt {
+	font-size: 16px;
+}
+.middle-txt {
+	font-size: 24px;
+}
+.big-txt {
+	font-size: 32px;
+}
+
+.small-space {
+	letter-spacing: normal;
+}
+.middle-space {
+	letter-spacing: 2px;
+}
+.big-space {
+	letter-spacing: 4px;
+}
+.current-sett {
+	border: 1px solid #000;
+}
+.text-spacing span {
+	line-height: 32px;
+}
+.stand-settings {
+	float: right;
+	display: block;
+	text-transform: uppercase;
+	color: #FFF;
+	height: 37px;
+	line-height: 35px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 20px;
+	background-color: #d81900;
+	cursor: pointer;
+}
+.hide-version-panel {
+	float: right;
+	text-decoration: underline;
+	color: #043f5d;
+	line-height: 32px;
+	margin-top: 10px;
+}
+
+
+.middle-text-size {
+	font-size: 130%;
+}
+.middle-text-size .search input[type="text"],
+.middle-text-size .nav select {
+	margin-right: 0;
+}
+.middle-text-size .footer > ul > li {
+	width: 108px;
+}
+.middle-text-size .list-item li {
+	height: 55px;
+}
+.middle-text-size .static-tabs p a {
+	height: 42px;
+}
+.middle-text-size .event-details {
+	width: 408px;
+}
+.list-events li a {
+	height: 57px;
+}

@@ -79,7 +79,7 @@
 }
 
 .list-events li {
-	line-height: 14px;
+	line-height: 0.9em;
     margin-bottom: 13px;
     border-bottom: 1px solid #c2c2c2;
     padding-bottom: 13px;

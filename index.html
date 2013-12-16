@@ -12,7 +12,7 @@
     <script src="js/modules/tools.js"></script>
     <script src="js/starter.js"></script>
 </head>
-<body>
+<body class="middle-text-size">
    <div id="wrapper">
    		<div class="pop-up-overlay" style="display:none;">
         	<div class="pop-up login-pop-up">
@@ -77,7 +77,7 @@
                        <input type="text" placeholder="Поиск"/>
                        <input type="button" value="Найти"/>
                    </div>
-                   <div class="version">
+                   <div class="version current">
                        <p>версия для слабовидящих</p>
                    </div>
                    <div class="local">
@@ -90,6 +90,21 @@
                </div>
            </div>
 
+			<div class="version-panel">
+            	<div class="ver-setting text-size">
+                	<span>Размер текста:</span>
+                    <span class="text-sett small-txt current-sett">A</span>
+                    <span class="text-sett middle-txt">A</span>
+                    <span class="text-sett big-txt">A</span>
+                </div>
+                <div class="ver-setting text-spacing">
+                	<span>Интервал между буквами:</span>
+                    <span class="text-sett small-space current-sett">Стандартный</span>
+                    <span class="text-sett middle-space">Средний</span>
+                    <span class="text-sett big-space">Большой</span>
+                </div>
+                <a href="#" class="hide-version-panel">Скрыть настройки</a>
+            </div><!--/version-panel-->
 
            <div class="header-center">
                <div class="title-page">
@@ -249,14 +264,14 @@
                <ul>
                    <li><a href="#">Стенограммы</a></li>
                    <li><a href="#">Пресс-релизы</a></li>
-                   <li>Телеграммы</li>
+                   <li><a href="#">Телеграммы</a></li>
                </ul>
            </li>
            <li>
                Президент РД
                <ul>
-                   <li>Биография</li>
-                   <li>Фотогалерея</li>
+                   <li><a href="#">Биография</a></li>
+                   <li><a href="#">Фотогалерея</a></li>
                    <li>Новости</li>
                    <li>Контакты</li>
                </ul>
